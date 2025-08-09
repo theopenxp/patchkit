@@ -1,0 +1,15 @@
+DIRS = \
+    bldrthnk \
+    genxx \
+    instaler \
+    kdexts2  \
+    kernprof \
+    kernrate \
+    ntsdexts \
+    pperf{x86} \
+    qsys \
+    resmon \
+    umdh \
+    vadump \
+    winerror \
+    devctl

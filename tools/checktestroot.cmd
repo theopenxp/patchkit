@@ -3,7 +3,7 @@
 
 echo Verifying that the Testroot Certificate is installed...
 set __certinstalled=
-for /f %%i in ('tfindcer -a"Microsoft Test Root Authority" -s root -S ^| findstr /c:"431013F7 60B53515 A754C5D1 DBE1E8A2 0DD00D9E"') do (
+for /f %%i in ('tfindcer -a"Microsoft Test Root Authority" -s root -S ^| findstr /c:"8D19CCCE DDAF2F4C BE90C892 7C08A1F8 4AE41BC5"') do (
     set __certinstalled=1
 )
 
@@ -15,7 +15,7 @@ certmgr -add %RazzleToolPath%\testroot.cer -r localMachine -s root
 
 echo Check again to see if Testroot is installed...
 set __certinstalled=
-for /f %%i in ('tfindcer -a"Microsoft Test Root Authority" -s root -S ^| findstr /c:"431013F7 60B53515 A754C5D1 DBE1E8A2 0DD00D9E"') do (
+for /f %%i in ('tfindcer -a"Microsoft Test Root Authority" -s root -S ^| findstr /c:"8D19CCCE DDAF2F4C BE90C892 7C08A1F8 4AE41BC5"') do (
     set __certinstalled=1
 )
 

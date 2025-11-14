@@ -30,14 +30,16 @@ if ( &GenerateNumFile( $BldnumFileName, $BuildNumber, "BUILDNUMBER" ) ) {
    exit( 1 );
 }
 
+# Get the QFE number
+$QfeNumber = &GetQfeNumber;
 
-# use unless as GetQfeNumber returns zero on failure
-unless ( $QfeNumber = &GetQfeNumber ) {
+# Check if QfeNumber is valid (not undefined), if not, exit
+if ( !defined $QfeNumber ) {
    print( "Failed to generate QFE number, exiting ...\n" );
    exit( 1 );
 }
 
-# Generate the qfe number file from ntverp.h
+# Generate the QFE number file from ntverp.h
 if ( &GenerateNumFile( $QfenumFileName, $QfeNumber, "QFEBUILDNUMBER" ) ) {
    print( "Failed to generate $QfenumFileName, exiting ...\n" );
    exit( 1 );
@@ -59,7 +61,6 @@ exit( 0 );
 #
 sub GetBuildNumber
 {
-
    # find the file
    my( $VerFile ) = $ENV{ "SDXROOT" } . "\\public\\sdk\\inc\\ntverp.h";
    if ( ! -e $VerFile ) {
@@ -91,22 +92,19 @@ sub GetBuildNumber
    # if we're here, we didn't find a build number in the VerFile
    print( "Failed to find a build number in $VerFile ..." );
    return( 0 );
-
 }
-
 
 #
 # GetQfeNumber
 #
 # Arguments: none
 #
-# Purpose: parse ntverp.h from public, return the qfe number
+# Purpose: parse ntverp.h from public, return the QFE number
 #
-# Returns: the qfe number if successful, zero otherwise
+# Returns: the QFE number if successful, 0 otherwise
 #
 sub GetQfeNumber
 {
-
    # find the file
    my( $VerFile ) = $ENV{ "SDXROOT" } . "\\public\\sdk\\inc\\ntverp.h";
    if ( ! -e $VerFile ) {
@@ -122,10 +120,10 @@ sub GetQfeNumber
          # read through the file
          while ( $ThisLine = <$fh> ) {
             # see if this is the qfe number defining line
-            if ( $ThisLine =~ /#define VER_PRODUCTBUILD_QFE\s*(\d*)/ ) {
+            if ( $ThisLine =~ /^\s*#define\s+VER_PRODUCTBUILD_QFE\s+(\d+)\s*$/ ) {
                # $1 is now the build number
                undef( $fh );
-               return( $1 );
+               return( $1 );  # return the QFE number
             }
          }
          undef( $fh );
@@ -135,10 +133,9 @@ sub GetQfeNumber
       }
    }
 
-   # if we're here, we didn't find a qfe number in the VerFile
-   print( "Failed to find a qfe number in $VerFile ..." );
-   return( 0 );
-
+   # if no QFE found, return 0 to indicate no QFE number was found
+   print( "Failed to find a QFE number in $VerFile, using default (0) ...\n" );
+   return( 0 );  # return 0 exactly as per the ntverp.h file
 }
 
 
@@ -154,7 +151,6 @@ sub GetQfeNumber
 #
 sub GenerateNumFile
 {
-
    # get passed args
    my( $NumFileName, $Number, $NumberType ) = @_;
 
@@ -169,7 +165,4 @@ sub GenerateNumFile
    # if we're here, we didn't create the file
    print( "Failed to write $NumFileName ..." );
    return( 1 );
-
 }
-
-

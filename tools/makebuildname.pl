@@ -27,18 +27,24 @@ parseargs('d:' => \$Dest, '?' => \&Usage);
 WriteBuildName($Dest);
 
 sub WriteBuildName($) {
-    
     my ($BuildNamePath) = @_;
-    $BuildNamePath = $ENV{SDXROOT} if(!defined $BuildNamePath);
+    $BuildNamePath = $ENV{SDXROOT} if (!defined $BuildNamePath);
+
+    # Set the path to BuildName.txt
     my $BuildNameFile = $BuildNamePath . "\\BuildName.txt";
 
-    if (!-d $BuildNamePath) {
-        Myerrmsg("can't find build logs directory $BuildNamePath");
-        return;
+    # Check if the directory exists
+    unless (-d $BuildNamePath) {
+        # Try to create the directory if it doesn't exist
+        if (mkdir $BuildNamePath) {
+            dbgmsg("Created directory: $BuildNamePath");
+        } else {
+            Myerrmsg("can't find or create build logs directory $BuildNamePath");
+            return;
+        }
     }
 
-    # make a new buildname each time, idx builds will update 
-    # the __blddate__ file each day during newver.cmd
+    # Make a new buildname each time, idx builds will update the __blddate__ file each day
     my $BuildName = &MakeBuildName;
     if ($BuildName) {
         my $fh = new IO::File $BuildNameFile, "w";
@@ -52,7 +58,7 @@ sub WriteBuildName($) {
         Myerrmsg("can't make build name");
     }
 
-    # verify that we have a valid build name file
+    # Verify that we have a valid build name file
     my $ReadBuildName;
     my $fh = new IO::File $BuildNameFile, "r";
     if (defined $fh) {
@@ -63,18 +69,17 @@ sub WriteBuildName($) {
     } else {
         Myerrmsg("can't read $BuildNameFile: $!");
     }
+
     if ($ReadBuildName ne $BuildName) {
         wrnmsg("build name file $BuildNameFile value " .
-                "$ReadBuildName does not match $BuildName");
+               "$ReadBuildName does not match $BuildName");
     }
     return $ReadBuildName;
 }
 
-
-
 sub MakeBuildName {
     my $BuildNumber = &MakeBuildNumber or return;
-    my $BuildQFE    = &MakeBuildQFE    or return;
+    my $BuildQFE    = &MakeBuildQFE    or 0; # QFE is a thing which may always be 0
     my $BuildArch   = &MakeBuildArch   or return;
     my $BuildType   = &MakeBuildType   or return;
     my $BuildBranch = &MakeBuildBranch or return;
@@ -121,21 +126,27 @@ sub MakeBuildNumber {
 }
 
 sub MakeBuildQFE {
-	my ($BuildQFE);
+    my ($BuildQFE);
 
-	my $BldqfeFile = $ENV{"SDXROOT"} . "\\__qfenum__";
+    my $BldqfeFile = $ENV{"SDXROOT"} . "\\__qfenum__";
     dbgmsg("will use $BldqfeFile as build number QFE");
 
-	my $fh = new IO::File $BldqfeFile, "r";
+    # Check if the QFE file exists and contains a valid QFE number
+    my $fh = new IO::File $BldqfeFile, "r";
     if (defined $fh) {
         ($BuildQFE) = $fh->getline =~ /QFEBUILDNUMBER=(\d+)/;
         undef $fh;
-        dbgmsg("build QFE is $BuildQFE");
     } else {
-        Myerrmsg("can't read $BldqfeFile: $!");
+        # If file doesn't exist or can't read, use default value from ntverp.h
+        $BuildQFE = &GetQfeNumber;
+        if (!defined $BuildQFE) {
+            # If QFE number is still not defined, set it to 0 explicitly
+            $BuildQFE = 0;
+        }
     }
+    dbgmsg("build QFE is $BuildQFE");
 
-	return $BuildQFE;
+    return $BuildQFE;
 }
 
 sub MakeBuildArch {

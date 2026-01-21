@@ -1,0 +1,124 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\address.obj \
+    $(_OBJ_DIR)\i386\assemblyinfo.obj \
+    $(_OBJ_DIR)\i386\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\i386\assertion.obj \
+    $(_OBJ_DIR)\i386\authentication.obj \
+    $(_OBJ_DIR)\i386\binding.obj \
+    $(_OBJ_DIR)\i386\business.obj \
+    $(_OBJ_DIR)\i386\category.obj \
+    $(_OBJ_DIR)\i386\changerecord.obj \
+    $(_OBJ_DIR)\i386\contact.obj \
+    $(_OBJ_DIR)\i386\description.obj \
+    $(_OBJ_DIR)\i386\discoveryurl.obj \
+    $(_OBJ_DIR)\i386\email.obj \
+    $(_OBJ_DIR)\i386\extension.obj \
+    $(_OBJ_DIR)\i386\find.obj \
+    $(_OBJ_DIR)\i386\inquire.obj \
+    $(_OBJ_DIR)\i386\keyedreference.obj \
+    $(_OBJ_DIR)\i386\logs.obj \
+    $(_OBJ_DIR)\i386\messages.obj \
+    $(_OBJ_DIR)\i386\name.obj \
+    $(_OBJ_DIR)\i386\phone.obj \
+    $(_OBJ_DIR)\i386\publish.obj \
+    $(_OBJ_DIR)\i386\service.obj \
+    $(_OBJ_DIR)\i386\taxonomy.obj \
+    $(_OBJ_DIR)\i386\tmodel.obj \
+    $(_OBJ_DIR)\i386\types.obj \
+    $(_OBJ_DIR)\i386\serializer.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\address.obj \
+    $(_OBJ_DIR)\ia64\assemblyinfo.obj \
+    $(_OBJ_DIR)\ia64\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\ia64\assertion.obj \
+    $(_OBJ_DIR)\ia64\authentication.obj \
+    $(_OBJ_DIR)\ia64\binding.obj \
+    $(_OBJ_DIR)\ia64\business.obj \
+    $(_OBJ_DIR)\ia64\category.obj \
+    $(_OBJ_DIR)\ia64\changerecord.obj \
+    $(_OBJ_DIR)\ia64\contact.obj \
+    $(_OBJ_DIR)\ia64\description.obj \
+    $(_OBJ_DIR)\ia64\discoveryurl.obj \
+    $(_OBJ_DIR)\ia64\email.obj \
+    $(_OBJ_DIR)\ia64\extension.obj \
+    $(_OBJ_DIR)\ia64\find.obj \
+    $(_OBJ_DIR)\ia64\inquire.obj \
+    $(_OBJ_DIR)\ia64\keyedreference.obj \
+    $(_OBJ_DIR)\ia64\logs.obj \
+    $(_OBJ_DIR)\ia64\messages.obj \
+    $(_OBJ_DIR)\ia64\name.obj \
+    $(_OBJ_DIR)\ia64\phone.obj \
+    $(_OBJ_DIR)\ia64\publish.obj \
+    $(_OBJ_DIR)\ia64\service.obj \
+    $(_OBJ_DIR)\ia64\taxonomy.obj \
+    $(_OBJ_DIR)\ia64\tmodel.obj \
+    $(_OBJ_DIR)\ia64\types.obj \
+    $(_OBJ_DIR)\ia64\serializer.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\address.obj \
+    $(_OBJ_DIR)\amd64\assemblyinfo.obj \
+    $(_OBJ_DIR)\amd64\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\amd64\assertion.obj \
+    $(_OBJ_DIR)\amd64\authentication.obj \
+    $(_OBJ_DIR)\amd64\binding.obj \
+    $(_OBJ_DIR)\amd64\business.obj \
+    $(_OBJ_DIR)\amd64\category.obj \
+    $(_OBJ_DIR)\amd64\changerecord.obj \
+    $(_OBJ_DIR)\amd64\contact.obj \
+    $(_OBJ_DIR)\amd64\description.obj \
+    $(_OBJ_DIR)\amd64\discoveryurl.obj \
+    $(_OBJ_DIR)\amd64\email.obj \
+    $(_OBJ_DIR)\amd64\extension.obj \
+    $(_OBJ_DIR)\amd64\find.obj \
+    $(_OBJ_DIR)\amd64\inquire.obj \
+    $(_OBJ_DIR)\amd64\keyedreference.obj \
+    $(_OBJ_DIR)\amd64\logs.obj \
+    $(_OBJ_DIR)\amd64\messages.obj \
+    $(_OBJ_DIR)\amd64\name.obj \
+    $(_OBJ_DIR)\amd64\phone.obj \
+    $(_OBJ_DIR)\amd64\publish.obj \
+    $(_OBJ_DIR)\amd64\service.obj \
+    $(_OBJ_DIR)\amd64\taxonomy.obj \
+    $(_OBJ_DIR)\amd64\tmodel.obj \
+    $(_OBJ_DIR)\amd64\types.obj \
+    $(_OBJ_DIR)\amd64\serializer.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\address.obj \
+    $(_OBJ_DIR)\arm\assemblyinfo.obj \
+    $(_OBJ_DIR)\arm\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\arm\assertion.obj \
+    $(_OBJ_DIR)\arm\authentication.obj \
+    $(_OBJ_DIR)\arm\binding.obj \
+    $(_OBJ_DIR)\arm\business.obj \
+    $(_OBJ_DIR)\arm\category.obj \
+    $(_OBJ_DIR)\arm\changerecord.obj \
+    $(_OBJ_DIR)\arm\contact.obj \
+    $(_OBJ_DIR)\arm\description.obj \
+    $(_OBJ_DIR)\arm\discoveryurl.obj \
+    $(_OBJ_DIR)\arm\email.obj \
+    $(_OBJ_DIR)\arm\extension.obj \
+    $(_OBJ_DIR)\arm\find.obj \
+    $(_OBJ_DIR)\arm\inquire.obj \
+    $(_OBJ_DIR)\arm\keyedreference.obj \
+    $(_OBJ_DIR)\arm\logs.obj \
+    $(_OBJ_DIR)\arm\messages.obj \
+    $(_OBJ_DIR)\arm\name.obj \
+    $(_OBJ_DIR)\arm\phone.obj \
+    $(_OBJ_DIR)\arm\publish.obj \
+    $(_OBJ_DIR)\arm\service.obj \
+    $(_OBJ_DIR)\arm\taxonomy.obj \
+    $(_OBJ_DIR)\arm\tmodel.obj \
+    $(_OBJ_DIR)\arm\types.obj \
+    $(_OBJ_DIR)\arm\serializer.obj
+
+PASS0_ARM_OBJECTS=
+

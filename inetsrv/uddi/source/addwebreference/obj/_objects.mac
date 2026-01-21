@@ -1,0 +1,44 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\addwebreference.obj \
+    $(_OBJ_DIR)\i386\paging.obj \
+    $(_OBJ_DIR)\i386\results.obj \
+    $(_OBJ_DIR)\i386\search.obj \
+    $(_OBJ_DIR)\i386\visualstudio.obj \
+    $(_OBJ_DIR)\i386\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\i386\assemblyinfo.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\addwebreference.obj \
+    $(_OBJ_DIR)\ia64\paging.obj \
+    $(_OBJ_DIR)\ia64\results.obj \
+    $(_OBJ_DIR)\ia64\search.obj \
+    $(_OBJ_DIR)\ia64\visualstudio.obj \
+    $(_OBJ_DIR)\ia64\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\ia64\assemblyinfo.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\addwebreference.obj \
+    $(_OBJ_DIR)\amd64\paging.obj \
+    $(_OBJ_DIR)\amd64\results.obj \
+    $(_OBJ_DIR)\amd64\search.obj \
+    $(_OBJ_DIR)\amd64\visualstudio.obj \
+    $(_OBJ_DIR)\amd64\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\amd64\assemblyinfo.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\addwebreference.obj \
+    $(_OBJ_DIR)\arm\paging.obj \
+    $(_OBJ_DIR)\arm\results.obj \
+    $(_OBJ_DIR)\arm\search.obj \
+    $(_OBJ_DIR)\arm\visualstudio.obj \
+    $(_OBJ_DIR)\arm\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\arm\assemblyinfo.obj
+
+PASS0_ARM_OBJECTS=
+

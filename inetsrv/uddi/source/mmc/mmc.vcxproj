@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <ProjectGuid>{C3B4C74C-83D0-42C9-9706-B15F03BA9593}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>18.0.11304.63</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MMC_EXPORTS;ISOLATION_AWARE_ENABLED;_ATL_ATTRIBUTES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>mmc.lib;comctl32.lib;uuid.lib;secur32.lib;htmlhelp.lib;msdasc.lib;wbemuuid.lib;version.lib;rpcrt4.lib;adsiid.lib;activeds.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)uddi.mmc.dll</OutputFile>
+      <ModuleDefinitionFile>uddi.mmc.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)uddi.mmc.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)uddi.mmc.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Message>Registering the UDDI snapin</Message>
+      <Command>regsvr32 /s $(TargetPath)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;MMC_EXPORTS;ISOLATION_AWARE_ENABLED;_ATL_ATTRIBUTES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>mmc.lib;comctl32.lib;uuid.lib;secur32.lib;htmlhelp.lib;msdasc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)uddi.mmc.dll</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(OutDir)mmc.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="about.cpp" />
+    <ClCompile Include="basesnap.cpp" />
+    <ClCompile Include="comp.cpp" />
+    <ClCompile Include="compdata.cpp" />
+    <ClCompile Include="dataobj.cpp" />
+    <ClCompile Include="delebase.cpp" />
+    <ClCompile Include="mmccrack.cpp" />
+    <ClCompile Include="objectpicker.cpp" />
+    <ClCompile Include="scp.cpp" />
+    <ClCompile Include="scppublisher.cpp" />
+    <ClCompile Include="servercheck.cpp" />
+    <ClCompile Include="stringutil.cpp" />
+    <ClCompile Include="uddi.cpp" />
+    <ClCompile Include="uddiservicesnode.cpp" />
+    <ClCompile Include="uddisitenode.cpp" />
+    <ClCompile Include="webservernode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="uddi.mmc.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="about.h" />
+    <ClInclude Include="ADM_execResetKeyImmediate.h" />
+    <ClInclude Include="ADM_setAdminAccount.h" />
+    <ClInclude Include="basesnap.h" />
+    <ClInclude Include="comp.h" />
+    <ClInclude Include="compdata.h" />
+    <ClInclude Include="dataobj.h" />
+    <ClInclude Include="delebase.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="guids.h" />
+    <ClInclude Include="localres.h" />
+    <ClInclude Include="net_bindingTemplate_tModelInstanceInfos_get.h" />
+    <ClInclude Include="net_businessEntity_bindingTemplates_get.h" />
+    <ClInclude Include="net_config_get.h" />
+    <ClInclude Include="net_config_save.h" />
+    <ClInclude Include="objectpicker.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="scp.h" />
+    <ClInclude Include="scppublisher.h" />
+    <ClInclude Include="uddi.h" />
+    <ClInclude Include="uddiservicesnode.h" />
+    <ClInclude Include="uddisitenode.h" />
+    <ClInclude Include="webservernode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\activedirectory.ico" />
+    <Image Include="res\advancededit.ico" />
+    <Image Include="res\authentication.ico" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\cryptography.ico" />
+    <Image Include="res\database.ico" />
+    <Image Include="res\dbconnection.ico" />
+    <Image Include="res\lgicons.bmp" />
+    <Image Include="res\logging.ico" />
+    <Image Include="res\logging_eventlog.ico" />
+    <Image Include="res\logo.bmp" />
+    <Image Include="res\logolarge.bmp" />
+    <Image Include="res\requiressl.ico" />
+    <Image Include="res\roles.ico" />
+    <Image Include="res\site.ico" />
+    <Image Include="res\smicons.bmp" />
+    <Image Include="res\smopen.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\uddi.ico" />
+    <Image Include="res\webserver.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\uddimmc.manifest" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

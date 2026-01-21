@@ -1,0 +1,25 @@
+BUILD: Examining d:\openxp\inetsrv\uddi\source\tools\send directory for files to compile.
+Compiling d:\openxp\inetsrv\uddi\source\tools\send directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+1>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\send
+Elapsed time [0:00:00.000] ********************
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 send D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module send not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>
+1>Stop.
+Linking d:\openxp\inetsrv\uddi\source\tools\send directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 send D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module send not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\send.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:..\..\core\obj\I386\uddi.core.dll,..\..\api\obj\I386\uddi.api.dll     uddisend.cs  assemblyversioninfo.cs  assemblyinfo.cs 
+1>binplace D:\OpenXP\inetsrv\uddi\source\tools\send\obj\i386\send.exe
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:00.703] ********************
+Executing post build scripts  ********************
+Checkout Public Changes
+'D:\OpenXP\tools\edit_public.cmd '

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{92421baf-f049-4efb-8347-d7373a91471b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bb532de5-a5fe-4ec8-bc5f-ea7176bdaeff}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{25f57581-8b96-40d7-ad02-6fb3b287c441}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="about.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basesnap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dataobj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="delebase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mmccrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="objectpicker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scppublisher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="servercheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stringutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uddi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uddiservicesnode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uddisitenode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="webservernode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="uddi.mmc.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ADM_execResetKeyImmediate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ADM_setAdminAccount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="about.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basesnap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dataobj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="delebase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="localres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net_bindingTemplate_tModelInstanceInfos_get.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net_businessEntity_bindingTemplates_get.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net_config_get.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net_config_save.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objectpicker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scppublisher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uddi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uddiservicesnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uddisitenode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="webservernode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\activedirectory.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\advancededit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\authentication.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cryptography.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\database.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dbconnection.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\lgicons.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logging.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logging_eventlog.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logolarge.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\requiressl.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\roles.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\site.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\smicons.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\smopen.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\uddi.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\webserver.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\uddimmc.manifest" />
+  </ItemGroup>
+</Project>

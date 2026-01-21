@@ -1,0 +1,63 @@
+BUILD: Examining d:\openxp\inetsrv\uddi\source\setup\web\ca directory for files to compile.
+Compiling d:\openxp\inetsrv\uddi\source\setup\web\ca directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+1>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\web\ca
+Elapsed time [0:00:00.000] ********************
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 webca D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module webca not found in D:\OpenXP\Tools\coffbase.txt
+1>	resgen.exe .\webca.resx obj\i386\webca.resources
+1>
+1>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+1>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+1>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+1>   at System.Resources.ResourceReader.ReadResources()
+1>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+1>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+1>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+1>   at System.Environment.GetResourceString(String key)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+1>   at System.Globalization.CultureInfo..cctor()
+1>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+1>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+1>   at System.Threading.Thread.get_CurrentUICulture()1>	..\..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>
+1>Stop.
+Linking d:\openxp\inetsrv\uddi\source\setup\web\ca directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 webca D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module webca not found in D:\OpenXP\Tools\coffbase.txt
+1>	resgen.exe .\webca.resx obj\i386\webca.resources
+1>
+1>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+1>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+1>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+1>   at System.Resources.ResourceReader.ReadResources()
+1>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+1>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+1>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+1>   at System.Environment.GetResourceString(String key)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+1>   at System.Globalization.CultureInfo..cctor()
+1>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+1>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+1>   at System.Threading.Thread.get_CurrentUICulture()1>	..\..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>	csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:library  /out:obj\i386\webca.dll  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:system.dll,system.data.dll,system.xml.dll,system.management.dll,system.configuration.install.dll,system.directoryservices.dll,system.windows.forms.dll,..\..\..\api\obj\I386\uddi.api.dll,..\..\..\api\PassportLib.dll,..\..\..\core\obj\I386\uddi.core.dll     assemblyinfo.cs	 assemblyversioninfo.cs  webca.cs 
+1>binplace D:\OpenXP\inetsrv\uddi\source\setup\web\ca\obj\i386\webca.dll
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:03.437] ********************
+Executing post build scripts  ********************
+Checkout Public Changes
+'D:\OpenXP\tools\edit_public.cmd '

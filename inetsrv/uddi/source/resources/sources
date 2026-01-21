@@ -1,0 +1,13 @@
+TARGETNAME=
+TARGETTYPE=NOTARGET
+TARGETPATH=
+SOURCES=
+
+#
+# tell the system to build the resources file
+#
+NTTARGETFILE1=uddi.resources
+
+MISCFILES =
+
+BINPLACE_PLACEFILE=placefil.txt

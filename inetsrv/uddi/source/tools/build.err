@@ -1,0 +1,4 @@
+1>replicationadmin\. : error CS1566: Error reading resource file 'd:\OpenXP\inetsrv\uddi\source\tools\replicationadmin\obj\i386\changelogcontrol.resources' -- 'The system cannot find the file specified. '
+1>replicationadmin\. : error CS1566: Error reading resource file 'd:\OpenXP\inetsrv\uddi\source\tools\replicationadmin\obj\i386\adminframe.resources' -- 'The system cannot find the file specified. '
+1>replicationadmin\. : error CS1566: Error reading resource file 'd:\OpenXP\inetsrv\uddi\source\tools\replicationadmin\obj\i386\correctionadmin.resources' -- 'The system cannot find the file specified. '
+1>replicationadmin\binplace : error BNP0000: Unable to place file obj\i386\replicationadmin.exe - exiting.

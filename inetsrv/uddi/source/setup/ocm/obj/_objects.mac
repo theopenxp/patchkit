@@ -1,0 +1,52 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\uddiocm.res \
+    $(_OBJ_DIR)\i386\appcompat.obj \
+    $(_OBJ_DIR)\i386\strlist.obj \
+    $(_OBJ_DIR)\i386\uddiinst.obj \
+    $(_OBJ_DIR)\i386\uddiocm.obj \
+    $(_OBJ_DIR)\i386\wizpage.obj \
+    $(_OBJ_DIR)\i386\objectpicker.obj \
+    $(_OBJ_DIR)\i386\ocmcallback.obj \
+    $(_OBJ_DIR)\i386\common.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\uddiocm.res \
+    $(_OBJ_DIR)\ia64\appcompat.obj \
+    $(_OBJ_DIR)\ia64\strlist.obj \
+    $(_OBJ_DIR)\ia64\uddiinst.obj \
+    $(_OBJ_DIR)\ia64\uddiocm.obj \
+    $(_OBJ_DIR)\ia64\wizpage.obj \
+    $(_OBJ_DIR)\ia64\objectpicker.obj \
+    $(_OBJ_DIR)\ia64\ocmcallback.obj \
+    $(_OBJ_DIR)\ia64\common.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\uddiocm.res \
+    $(_OBJ_DIR)\amd64\appcompat.obj \
+    $(_OBJ_DIR)\amd64\strlist.obj \
+    $(_OBJ_DIR)\amd64\uddiinst.obj \
+    $(_OBJ_DIR)\amd64\uddiocm.obj \
+    $(_OBJ_DIR)\amd64\wizpage.obj \
+    $(_OBJ_DIR)\amd64\objectpicker.obj \
+    $(_OBJ_DIR)\amd64\ocmcallback.obj \
+    $(_OBJ_DIR)\amd64\common.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\uddiocm.res \
+    $(_OBJ_DIR)\arm\appcompat.obj \
+    $(_OBJ_DIR)\arm\strlist.obj \
+    $(_OBJ_DIR)\arm\uddiinst.obj \
+    $(_OBJ_DIR)\arm\uddiocm.obj \
+    $(_OBJ_DIR)\arm\wizpage.obj \
+    $(_OBJ_DIR)\arm\objectpicker.obj \
+    $(_OBJ_DIR)\arm\ocmcallback.obj \
+    $(_OBJ_DIR)\arm\common.obj
+
+PASS0_ARM_OBJECTS=
+

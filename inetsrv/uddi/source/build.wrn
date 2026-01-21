@@ -1,0 +1,17 @@
+1>core\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\core\obj\i386\uddi.core.dll,D:\binaries.x86chk\.\uddi\bin\uddi.core.dll) failed 2
+1>api\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\api\obj\i386\uddi.api.dll,D:\binaries.x86chk\.\uddi\bin\uddi.api.dll) failed 2
+1>web\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\web\obj\i386\uddi.web.dll,D:\binaries.x86chk\.\uddi\bin\uddi.web.dll) failed 2
+1>addwebreference\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\addwebreference\obj\i386\uddi.addwebreference.dll,D:\binaries.x86chk\.\uddi\bin\uddi.addwebreference.dll) failed 2
+1>operator\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\operator\obj\i386\uddi.operator.dll,D:\binaries.x86chk\.\uddi\bin\uddi.operator.dll) failed 2
+1>replicate\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\replicate\obj\i386\replicate.exe,D:\binaries.x86chk\.\uddi\bin\replicate.exe) failed 2
+1>tools\rcf\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\rcf\obj\i386\rcf.exe,D:\binaries.x86chk\.\uddi\bin\rcf.exe) failed 2
+1>tools\monitor\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\monitor\obj\i386\monitor.exe,D:\binaries.x86chk\.\uddi\bin\monitor.exe) failed 2
+1>tools\send\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\send\obj\i386\send.exe,D:\binaries.x86chk\.\uddi\bin\send.exe) failed 2
+1>tools\resetkey\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\resetkey\obj\i386\resetkey.exe,D:\binaries.x86chk\.\uddi\bin\resetkey.exe) failed 2
+1>tools\validate\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\validate\obj\i386\validate.exe,D:\binaries.x86chk\.\uddi\bin\validate.exe) failed 2
+1>tools\bootstrap\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\bootstrap\obj\i386\Bootstrap.exe,D:\binaries.x86chk\.\uddi\bin\Bootstrap.exe) failed 2
+1>tools\migrate\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\migrate\obj\i386\migrate.exe,D:\binaries.x86chk\.\uddi\bin\migrate.exe) failed 2
+1>tools\replicationadmin\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\replicationadmin\obj\i386\replicationadmin.exe,D:\binaries.x86chk\.\uddi\bin\replicationadmin.exe) failed 2
+1>tools\recalcstats\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\recalcstats\obj\i386\recalcstats.exe,D:\binaries.x86chk\.\uddi\bin\recalcstats.exe) failed 2
+1>setup\web\ca\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\setup\web\ca\obj\i386\webca.dll,D:\binaries.x86chk\.\uddi\bin\webca.dll) failed 2
+1>setup\db\ca\binplace : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\setup\db\ca\obj\i386\dbca.dll,D:\binaries.x86chk\.\uddi\bin\dbca.dll) failed 2

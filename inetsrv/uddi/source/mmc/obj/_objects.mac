@@ -1,0 +1,84 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\resource.res \
+    $(_OBJ_DIR)\i386\about.obj \
+    $(_OBJ_DIR)\i386\basesnap.obj \
+    $(_OBJ_DIR)\i386\comp.obj \
+    $(_OBJ_DIR)\i386\compdata.obj \
+    $(_OBJ_DIR)\i386\dataobj.obj \
+    $(_OBJ_DIR)\i386\delebase.obj \
+    $(_OBJ_DIR)\i386\mmccrack.obj \
+    $(_OBJ_DIR)\i386\objectpicker.obj \
+    $(_OBJ_DIR)\i386\scp.obj \
+    $(_OBJ_DIR)\i386\scppublisher.obj \
+    $(_OBJ_DIR)\i386\uddi.obj \
+    $(_OBJ_DIR)\i386\uddiservicesnode.obj \
+    $(_OBJ_DIR)\i386\uddisitenode.obj \
+    $(_OBJ_DIR)\i386\webservernode.obj \
+    $(_OBJ_DIR)\i386\servercheck.obj \
+    $(_OBJ_DIR)\i386\stringutil.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\resource.res \
+    $(_OBJ_DIR)\ia64\about.obj \
+    $(_OBJ_DIR)\ia64\basesnap.obj \
+    $(_OBJ_DIR)\ia64\comp.obj \
+    $(_OBJ_DIR)\ia64\compdata.obj \
+    $(_OBJ_DIR)\ia64\dataobj.obj \
+    $(_OBJ_DIR)\ia64\delebase.obj \
+    $(_OBJ_DIR)\ia64\mmccrack.obj \
+    $(_OBJ_DIR)\ia64\objectpicker.obj \
+    $(_OBJ_DIR)\ia64\scp.obj \
+    $(_OBJ_DIR)\ia64\scppublisher.obj \
+    $(_OBJ_DIR)\ia64\uddi.obj \
+    $(_OBJ_DIR)\ia64\uddiservicesnode.obj \
+    $(_OBJ_DIR)\ia64\uddisitenode.obj \
+    $(_OBJ_DIR)\ia64\webservernode.obj \
+    $(_OBJ_DIR)\ia64\servercheck.obj \
+    $(_OBJ_DIR)\ia64\stringutil.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\resource.res \
+    $(_OBJ_DIR)\amd64\about.obj \
+    $(_OBJ_DIR)\amd64\basesnap.obj \
+    $(_OBJ_DIR)\amd64\comp.obj \
+    $(_OBJ_DIR)\amd64\compdata.obj \
+    $(_OBJ_DIR)\amd64\dataobj.obj \
+    $(_OBJ_DIR)\amd64\delebase.obj \
+    $(_OBJ_DIR)\amd64\mmccrack.obj \
+    $(_OBJ_DIR)\amd64\objectpicker.obj \
+    $(_OBJ_DIR)\amd64\scp.obj \
+    $(_OBJ_DIR)\amd64\scppublisher.obj \
+    $(_OBJ_DIR)\amd64\uddi.obj \
+    $(_OBJ_DIR)\amd64\uddiservicesnode.obj \
+    $(_OBJ_DIR)\amd64\uddisitenode.obj \
+    $(_OBJ_DIR)\amd64\webservernode.obj \
+    $(_OBJ_DIR)\amd64\servercheck.obj \
+    $(_OBJ_DIR)\amd64\stringutil.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\resource.res \
+    $(_OBJ_DIR)\arm\about.obj \
+    $(_OBJ_DIR)\arm\basesnap.obj \
+    $(_OBJ_DIR)\arm\comp.obj \
+    $(_OBJ_DIR)\arm\compdata.obj \
+    $(_OBJ_DIR)\arm\dataobj.obj \
+    $(_OBJ_DIR)\arm\delebase.obj \
+    $(_OBJ_DIR)\arm\mmccrack.obj \
+    $(_OBJ_DIR)\arm\objectpicker.obj \
+    $(_OBJ_DIR)\arm\scp.obj \
+    $(_OBJ_DIR)\arm\scppublisher.obj \
+    $(_OBJ_DIR)\arm\uddi.obj \
+    $(_OBJ_DIR)\arm\uddiservicesnode.obj \
+    $(_OBJ_DIR)\arm\uddisitenode.obj \
+    $(_OBJ_DIR)\arm\webservernode.obj \
+    $(_OBJ_DIR)\arm\servercheck.obj \
+    $(_OBJ_DIR)\arm\stringutil.obj
+
+PASS0_ARM_OBJECTS=
+

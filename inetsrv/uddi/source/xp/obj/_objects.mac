@@ -1,0 +1,28 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\uddi.xp.obj \
+    $(_OBJ_DIR)\i386\xp_recalculate_statistics.obj \
+    $(_OBJ_DIR)\i386\xp_reset_key.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\uddi.xp.obj \
+    $(_OBJ_DIR)\ia64\xp_recalculate_statistics.obj \
+    $(_OBJ_DIR)\ia64\xp_reset_key.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\uddi.xp.obj \
+    $(_OBJ_DIR)\amd64\xp_recalculate_statistics.obj \
+    $(_OBJ_DIR)\amd64\xp_reset_key.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\uddi.xp.obj \
+    $(_OBJ_DIR)\arm\xp_recalculate_statistics.obj \
+    $(_OBJ_DIR)\arm\xp_reset_key.obj
+
+PASS0_ARM_OBJECTS=
+

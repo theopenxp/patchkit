@@ -1,0 +1,32 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\uddicommon.res \
+    $(_OBJ_DIR)\i386\uddicommon.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\uddievents.h \
+    $(MC_SOURCEDIR)\uddievents.rc
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\uddicommon.res \
+    $(_OBJ_DIR)\ia64\uddicommon.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\uddievents.h \
+    $(MC_SOURCEDIR)\uddievents.rc
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\uddicommon.res \
+    $(_OBJ_DIR)\amd64\uddicommon.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\uddievents.h \
+    $(MC_SOURCEDIR)\uddievents.rc
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\uddicommon.res \
+    $(_OBJ_DIR)\arm\uddicommon.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\uddievents.h \
+    $(MC_SOURCEDIR)\uddievents.rc
+

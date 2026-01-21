@@ -1,0 +1,312 @@
+BUILD: Examining d:\openxp\inetsrv\uddi\source\tools directory tree for files to compile.
+Compiling d:\openxp\inetsrv\uddi\source\tools\rcf directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+1>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\rcf
+Elapsed time [0:00:00.015] ********************
+Compiling d:\openxp\inetsrv\uddi\source\tools\monitor directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+2>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\monitor
+Elapsed time [0:00:00.015] ********************
+Compiling d:\openxp\inetsrv\uddi\source\tools\send directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+3>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\send
+Elapsed time [0:00:00.015] ********************
+Compiling d:\openxp\inetsrv\uddi\source\tools\resetkey directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+4>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\resetkey
+Elapsed time [0:00:00.031] ********************
+Compiling d:\openxp\inetsrv\uddi\source\tools\validate directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+5>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\validate
+Elapsed time [0:00:00.031] ********************
+Compiling d:\openxp\inetsrv\uddi\source\tools\bootstrap directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+6>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\bootstrap
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 rcf D:\OpenXP\Tools\coffbase.txt
+Elapsed time [0:00:00.047] ********************
+Compiling d:\openxp\inetsrv\uddi\source\tools\migrate directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+7>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\migrate
+2>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 monitor D:\OpenXP\Tools\coffbase.txt
+3>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 send D:\OpenXP\Tools\coffbase.txt
+Elapsed time [0:00:00.062] ********************
+4>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 resetkey D:\OpenXP\Tools\coffbase.txt
+5>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 validate D:\OpenXP\Tools\coffbase.txt
+Compiling d:\openxp\inetsrv\uddi\source\tools\replicationadmin directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+8>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\replicationadmin
+6>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 Bootstrap D:\OpenXP\Tools\coffbase.txt
+7>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 migrate D:\OpenXP\Tools\coffbase.txt
+Elapsed time [0:00:00.093] ********************
+Compiling d:\openxp\inetsrv\uddi\source\tools\recalcstats directory ********************
+8>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 replicationadmin D:\OpenXP\Tools\coffbase.txt
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+2>genbasemac: module monitor not found in D:\OpenXP\Tools\coffbase.txt
+3>genbasemac: module send not found in D:\OpenXP\Tools\coffbase.txt
+4>genbasemac: module resetkey not found in D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module rcf not found in D:\OpenXP\Tools\coffbase.txt
+5>genbasemac: module validate not found in D:\OpenXP\Tools\coffbase.txt
+6>genbasemac: module Bootstrap not found in D:\OpenXP\Tools\coffbase.txt
+7>genbasemac: module migrate not found in D:\OpenXP\Tools\coffbase.txt
+8>genbasemac: module replicationadmin not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+4>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+2>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+3>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+5>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+6>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+7>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+8>	resgen.exe .\adminframe.resx obj\i386\adminframe.resources
+4>
+1>
+2>
+3>
+5>
+6>
+2>Stop.
+5>Stop.
+1>Stop.
+3>Stop.
+4>Stop.
+7>
+3>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\recalcstats
+Elapsed time [0:00:00.422] ********************
+6>Stop.
+7>Stop.
+3>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 recalcstats D:\OpenXP\Tools\coffbase.txt
+3>genbasemac: module recalcstats not found in D:\OpenXP\Tools\coffbase.txt
+3>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+3>
+3>Stop.
+8>
+8>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+8>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+8>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+8>   at System.Resources.ResourceReader.ReadResources()
+8>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+8>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+8>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+8>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+8>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+8>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+8>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+8>   at System.Environment.GetResourceString(String key)
+8>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+8>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+8>   at System.Globalization.CultureInfo..cctor()
+8>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+8>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+8>   at System.Threading.Thread.get_CurrentUICulture()8>	resgen.exe .\changelogcontrol.resx obj\i386\changelogcontrol.resources
+8>
+8>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+8>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+8>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+8>   at System.Resources.ResourceReader.ReadResources()
+8>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+8>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+8>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+8>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+8>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+8>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+8>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+8>   at System.Environment.GetResourceString(String key)
+8>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+8>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+8>   at System.Globalization.CultureInfo..cctor()
+8>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+8>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+8>   at System.Threading.Thread.get_CurrentUICulture()8>	resgen.exe .\correctionadmin.resx obj\i386\correctionadmin.resources
+8>
+8>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+8>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+8>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+8>   at System.Resources.ResourceReader.ReadResources()
+8>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+8>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+8>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+8>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+8>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+8>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+8>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+8>   at System.Environment.GetResourceString(String key)
+8>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+8>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+8>   at System.Globalization.CultureInfo..cctor()
+8>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+8>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+8>   at System.Threading.Thread.get_CurrentUICulture()8>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+8>
+8>Stop.
+Linking d:\openxp\inetsrv\uddi\source\tools\rcf directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 rcf D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module rcf not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\rcf.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:system.dll,system.data.dll,system.xml.dll,..\..\core\obj\I386\uddi.core.dll,..\..\operator\obj\I386\uddi.operator.dll     assemblyinfo.cs		 assemblyversioninfo.cs  rcf.cs 
+1>binplace d:\openxp\inetsrv\uddi\source\tools\rcf\obj\i386\rcf.exe
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:04.218] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\monitor directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 monitor D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module monitor not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\monitor.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:..\..\core\obj\I386\uddi.core.dll,..\..\operator\obj\I386\uddi.operator.dll     assemblyinfo.cs		 assemblyversioninfo.cs  monitor.cs 
+1>binplace d:\openxp\inetsrv\uddi\source\tools\monitor\obj\i386\monitor.exe
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:04.750] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\send directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 send D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module send not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\send.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:..\..\core\obj\I386\uddi.core.dll,..\..\api\obj\I386\uddi.api.dll     uddisend.cs  assemblyversioninfo.cs  assemblyinfo.cs 
+1>binplace d:\openxp\inetsrv\uddi\source\tools\send\obj\i386\send.exe
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:05.297] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\resetkey directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 resetkey D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module resetkey not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\resetkey.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:..\..\core\obj\I386\uddi.core.dll     resetkey.cs  assemblyversioninfo.cs  assemblyinfo.cs 
+1>binplace d:\openxp\inetsrv\uddi\source\tools\resetkey\obj\i386\resetkey.exe
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:05.875] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\validate directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 validate D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module validate not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\validate.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:..\..\core\obj\I386\uddi.core.dll     assemblyinfo.cs  assemblyversioninfo.cs  validate.cs 
+1>binplace d:\openxp\inetsrv\uddi\source\tools\validate\obj\i386\validate.exe
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:06.343] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\bootstrap directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 Bootstrap D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module Bootstrap not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\Bootstrap.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:..\..\core\obj\I386\uddi.core.dll,..\..\api\obj\I386\uddi.api.dll    bootstrap.cs  assemblyversioninfo.cs  assemblyinfo.cs 
+1>binplace d:\openxp\inetsrv\uddi\source\tools\bootstrap\obj\i386\Bootstrap.exe
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:06.875] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\migrate directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 migrate D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module migrate not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\migrate.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe- /RES:uddi.v2.update_rc0_to_rc1.sql         /RES:uddi.v2.update_rc1_to_rc2.sql  /r:..\..\core\obj\I386\uddi.core.dll,..\..\api\obj\I386\uddi.api.dll    migrate.cs  assemblyinfo.cs 
+1>binplace d:\openxp\inetsrv\uddi\source\tools\migrate\obj\i386\migrate.exe
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:07.781] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\replicationadmin directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 replicationadmin D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module replicationadmin not found in D:\OpenXP\Tools\coffbase.txt
+1>	resgen.exe .\adminframe.resx obj\i386\adminframe.resources
+1>
+1>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+1>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+1>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+1>   at System.Resources.ResourceReader.ReadResources()
+1>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+1>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+1>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+1>   at System.Environment.GetResourceString(String key)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+1>   at System.Globalization.CultureInfo..cctor()
+1>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+1>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+1>   at System.Threading.Thread.get_CurrentUICulture()1>	resgen.exe .\changelogcontrol.resx obj\i386\changelogcontrol.resources
+1>
+1>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+1>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+1>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+1>   at System.Resources.ResourceReader.ReadResources()
+1>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+1>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+1>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+1>   at System.Environment.GetResourceString(String key)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+1>   at System.Globalization.CultureInfo..cctor()
+1>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+1>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+1>   at System.Threading.Thread.get_CurrentUICulture()1>	resgen.exe .\correctionadmin.resx obj\i386\correctionadmin.resources
+1>
+1>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+1>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+1>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+1>   at System.Resources.ResourceReader.ReadResources()
+1>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+1>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+1>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+1>   at System.Environment.GetResourceString(String key)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+1>   at System.Globalization.CultureInfo..cctor()
+1>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+1>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+1>   at System.Threading.Thread.get_CurrentUICulture()1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\replicationadmin.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe- /resource:obj\i386\adminframe.resources  /resource:obj\i386\changelogcontrol.resources  /resource:obj\i386\correctionadmin.resources  /r:system.dll,system.data.dll,system.drawing.dll,system.windows.forms.dll,system.xml.dll,..\..\api\obj\I386\uddi.api.dll,..\..\core\obj\I386\uddi.core.dll,..\..\operator\obj\I386\uddi.operator.dll    assemblyinfo.cs  assemblyversioninfo.cs  adminframe.cs  changelogcontrol.cs  correctionadmin.cs 
+1>error CS1566: Error reading resource file 'd:\OpenXP\inetsrv\uddi\source\tools\replicationadmin\obj\i386\changelogcontrol.resources' -- 'The system cannot find the file specified. '
+1>error CS1566: Error reading resource file 'd:\OpenXP\inetsrv\uddi\source\tools\replicationadmin\obj\i386\adminframe.resources' -- 'The system cannot find the file specified. '
+1>error CS1566: Error reading resource file 'd:\OpenXP\inetsrv\uddi\source\tools\replicationadmin\obj\i386\correctionadmin.resources' -- 'The system cannot find the file specified. '
+1>binplace d:\openxp\inetsrv\uddi\source\tools\replicationadmin\obj\i386\replicationadmin.exe
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\replicationadmin\obj\i386\replicationadmin.exe,D:\binaries.x86chk\.\uddi\bin\replicationadmin.exe) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\replicationadmin.exe - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:10.843] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\recalcstats directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 recalcstats D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module recalcstats not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\recalcstats.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:..\..\core\obj\I386\uddi.core.dll     recalcstats.cs  assemblyversioninfo.cs  assemblyinfo.cs 
+1>binplace d:\openxp\inetsrv\uddi\source\tools\recalcstats\obj\i386\recalcstats.exe
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:11.312] ********************
+Executing post build scripts  ********************
+Checkout Public Changes
+'D:\OpenXP\tools\edit_public.cmd '

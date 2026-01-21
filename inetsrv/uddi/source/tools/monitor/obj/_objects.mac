@@ -1,0 +1,28 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\assemblyinfo.obj \
+    $(_OBJ_DIR)\i386\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\i386\monitor.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\assemblyinfo.obj \
+    $(_OBJ_DIR)\ia64\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\ia64\monitor.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\assemblyinfo.obj \
+    $(_OBJ_DIR)\amd64\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\amd64\monitor.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\assemblyinfo.obj \
+    $(_OBJ_DIR)\arm\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\arm\monitor.obj
+
+PASS0_ARM_OBJECTS=
+

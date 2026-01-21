@@ -1,0 +1,188 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\address.obj \
+    $(_OBJ_DIR)\i386\assemblyinfo.obj \
+    $(_OBJ_DIR)\i386\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\i386\base.obj \
+    $(_OBJ_DIR)\i386\bindings.obj \
+    $(_OBJ_DIR)\i386\box.obj \
+    $(_OBJ_DIR)\i386\breadcrumb.obj \
+    $(_OBJ_DIR)\i386\businesses.obj \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\categorybag.obj \
+    $(_OBJ_DIR)\i386\clientscripts.obj \
+    $(_OBJ_DIR)\i386\contacts.obj \
+    $(_OBJ_DIR)\i386\contextmenu.obj \
+    $(_OBJ_DIR)\i386\description.obj \
+    $(_OBJ_DIR)\i386\discoveryurl.obj \
+    $(_OBJ_DIR)\i386\editcontrol.obj \
+    $(_OBJ_DIR)\i386\email.obj \
+    $(_OBJ_DIR)\i386\explorer.obj \
+    $(_OBJ_DIR)\i386\format.obj \
+    $(_OBJ_DIR)\i386\header.obj \
+    $(_OBJ_DIR)\i386\helpcontrol.obj \
+    $(_OBJ_DIR)\i386\identifierbag.obj \
+    $(_OBJ_DIR)\i386\instanceinfos.obj \
+    $(_OBJ_DIR)\i386\localization.obj \
+    $(_OBJ_DIR)\i386\lookup.obj \
+    $(_OBJ_DIR)\i386\name.obj \
+    $(_OBJ_DIR)\i386\owner.obj \
+    $(_OBJ_DIR)\i386\phone.obj \
+    $(_OBJ_DIR)\i386\publisher.obj \
+    $(_OBJ_DIR)\i386\security.obj \
+    $(_OBJ_DIR)\i386\selection.obj \
+    $(_OBJ_DIR)\i386\services.obj \
+    $(_OBJ_DIR)\i386\sidenav.obj \
+    $(_OBJ_DIR)\i386\statistics.obj \
+    $(_OBJ_DIR)\i386\tab.obj \
+    $(_OBJ_DIR)\i386\taxonomy.obj \
+    $(_OBJ_DIR)\i386\tmodelbag.obj \
+    $(_OBJ_DIR)\i386\tmodels.obj \
+    $(_OBJ_DIR)\i386\tree.obj \
+    $(_OBJ_DIR)\i386\categorybrowser.obj \
+    $(_OBJ_DIR)\i386\taxonomytree.obj \
+    $(_OBJ_DIR)\i386\menu.obj \
+    $(_OBJ_DIR)\i386\validators.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\address.obj \
+    $(_OBJ_DIR)\ia64\assemblyinfo.obj \
+    $(_OBJ_DIR)\ia64\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\ia64\base.obj \
+    $(_OBJ_DIR)\ia64\bindings.obj \
+    $(_OBJ_DIR)\ia64\box.obj \
+    $(_OBJ_DIR)\ia64\breadcrumb.obj \
+    $(_OBJ_DIR)\ia64\businesses.obj \
+    $(_OBJ_DIR)\ia64\cache.obj \
+    $(_OBJ_DIR)\ia64\categorybag.obj \
+    $(_OBJ_DIR)\ia64\clientscripts.obj \
+    $(_OBJ_DIR)\ia64\contacts.obj \
+    $(_OBJ_DIR)\ia64\contextmenu.obj \
+    $(_OBJ_DIR)\ia64\description.obj \
+    $(_OBJ_DIR)\ia64\discoveryurl.obj \
+    $(_OBJ_DIR)\ia64\editcontrol.obj \
+    $(_OBJ_DIR)\ia64\email.obj \
+    $(_OBJ_DIR)\ia64\explorer.obj \
+    $(_OBJ_DIR)\ia64\format.obj \
+    $(_OBJ_DIR)\ia64\header.obj \
+    $(_OBJ_DIR)\ia64\helpcontrol.obj \
+    $(_OBJ_DIR)\ia64\identifierbag.obj \
+    $(_OBJ_DIR)\ia64\instanceinfos.obj \
+    $(_OBJ_DIR)\ia64\localization.obj \
+    $(_OBJ_DIR)\ia64\lookup.obj \
+    $(_OBJ_DIR)\ia64\name.obj \
+    $(_OBJ_DIR)\ia64\owner.obj \
+    $(_OBJ_DIR)\ia64\phone.obj \
+    $(_OBJ_DIR)\ia64\publisher.obj \
+    $(_OBJ_DIR)\ia64\security.obj \
+    $(_OBJ_DIR)\ia64\selection.obj \
+    $(_OBJ_DIR)\ia64\services.obj \
+    $(_OBJ_DIR)\ia64\sidenav.obj \
+    $(_OBJ_DIR)\ia64\statistics.obj \
+    $(_OBJ_DIR)\ia64\tab.obj \
+    $(_OBJ_DIR)\ia64\taxonomy.obj \
+    $(_OBJ_DIR)\ia64\tmodelbag.obj \
+    $(_OBJ_DIR)\ia64\tmodels.obj \
+    $(_OBJ_DIR)\ia64\tree.obj \
+    $(_OBJ_DIR)\ia64\categorybrowser.obj \
+    $(_OBJ_DIR)\ia64\taxonomytree.obj \
+    $(_OBJ_DIR)\ia64\menu.obj \
+    $(_OBJ_DIR)\ia64\validators.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\address.obj \
+    $(_OBJ_DIR)\amd64\assemblyinfo.obj \
+    $(_OBJ_DIR)\amd64\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\amd64\base.obj \
+    $(_OBJ_DIR)\amd64\bindings.obj \
+    $(_OBJ_DIR)\amd64\box.obj \
+    $(_OBJ_DIR)\amd64\breadcrumb.obj \
+    $(_OBJ_DIR)\amd64\businesses.obj \
+    $(_OBJ_DIR)\amd64\cache.obj \
+    $(_OBJ_DIR)\amd64\categorybag.obj \
+    $(_OBJ_DIR)\amd64\clientscripts.obj \
+    $(_OBJ_DIR)\amd64\contacts.obj \
+    $(_OBJ_DIR)\amd64\contextmenu.obj \
+    $(_OBJ_DIR)\amd64\description.obj \
+    $(_OBJ_DIR)\amd64\discoveryurl.obj \
+    $(_OBJ_DIR)\amd64\editcontrol.obj \
+    $(_OBJ_DIR)\amd64\email.obj \
+    $(_OBJ_DIR)\amd64\explorer.obj \
+    $(_OBJ_DIR)\amd64\format.obj \
+    $(_OBJ_DIR)\amd64\header.obj \
+    $(_OBJ_DIR)\amd64\helpcontrol.obj \
+    $(_OBJ_DIR)\amd64\identifierbag.obj \
+    $(_OBJ_DIR)\amd64\instanceinfos.obj \
+    $(_OBJ_DIR)\amd64\localization.obj \
+    $(_OBJ_DIR)\amd64\lookup.obj \
+    $(_OBJ_DIR)\amd64\name.obj \
+    $(_OBJ_DIR)\amd64\owner.obj \
+    $(_OBJ_DIR)\amd64\phone.obj \
+    $(_OBJ_DIR)\amd64\publisher.obj \
+    $(_OBJ_DIR)\amd64\security.obj \
+    $(_OBJ_DIR)\amd64\selection.obj \
+    $(_OBJ_DIR)\amd64\services.obj \
+    $(_OBJ_DIR)\amd64\sidenav.obj \
+    $(_OBJ_DIR)\amd64\statistics.obj \
+    $(_OBJ_DIR)\amd64\tab.obj \
+    $(_OBJ_DIR)\amd64\taxonomy.obj \
+    $(_OBJ_DIR)\amd64\tmodelbag.obj \
+    $(_OBJ_DIR)\amd64\tmodels.obj \
+    $(_OBJ_DIR)\amd64\tree.obj \
+    $(_OBJ_DIR)\amd64\categorybrowser.obj \
+    $(_OBJ_DIR)\amd64\taxonomytree.obj \
+    $(_OBJ_DIR)\amd64\menu.obj \
+    $(_OBJ_DIR)\amd64\validators.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\address.obj \
+    $(_OBJ_DIR)\arm\assemblyinfo.obj \
+    $(_OBJ_DIR)\arm\assemblyversioninfo.obj \
+    $(_OBJ_DIR)\arm\base.obj \
+    $(_OBJ_DIR)\arm\bindings.obj \
+    $(_OBJ_DIR)\arm\box.obj \
+    $(_OBJ_DIR)\arm\breadcrumb.obj \
+    $(_OBJ_DIR)\arm\businesses.obj \
+    $(_OBJ_DIR)\arm\cache.obj \
+    $(_OBJ_DIR)\arm\categorybag.obj \
+    $(_OBJ_DIR)\arm\clientscripts.obj \
+    $(_OBJ_DIR)\arm\contacts.obj \
+    $(_OBJ_DIR)\arm\contextmenu.obj \
+    $(_OBJ_DIR)\arm\description.obj \
+    $(_OBJ_DIR)\arm\discoveryurl.obj \
+    $(_OBJ_DIR)\arm\editcontrol.obj \
+    $(_OBJ_DIR)\arm\email.obj \
+    $(_OBJ_DIR)\arm\explorer.obj \
+    $(_OBJ_DIR)\arm\format.obj \
+    $(_OBJ_DIR)\arm\header.obj \
+    $(_OBJ_DIR)\arm\helpcontrol.obj \
+    $(_OBJ_DIR)\arm\identifierbag.obj \
+    $(_OBJ_DIR)\arm\instanceinfos.obj \
+    $(_OBJ_DIR)\arm\localization.obj \
+    $(_OBJ_DIR)\arm\lookup.obj \
+    $(_OBJ_DIR)\arm\name.obj \
+    $(_OBJ_DIR)\arm\owner.obj \
+    $(_OBJ_DIR)\arm\phone.obj \
+    $(_OBJ_DIR)\arm\publisher.obj \
+    $(_OBJ_DIR)\arm\security.obj \
+    $(_OBJ_DIR)\arm\selection.obj \
+    $(_OBJ_DIR)\arm\services.obj \
+    $(_OBJ_DIR)\arm\sidenav.obj \
+    $(_OBJ_DIR)\arm\statistics.obj \
+    $(_OBJ_DIR)\arm\tab.obj \
+    $(_OBJ_DIR)\arm\taxonomy.obj \
+    $(_OBJ_DIR)\arm\tmodelbag.obj \
+    $(_OBJ_DIR)\arm\tmodels.obj \
+    $(_OBJ_DIR)\arm\tree.obj \
+    $(_OBJ_DIR)\arm\categorybrowser.obj \
+    $(_OBJ_DIR)\arm\taxonomytree.obj \
+    $(_OBJ_DIR)\arm\menu.obj \
+    $(_OBJ_DIR)\arm\validators.obj
+
+PASS0_ARM_OBJECTS=
+

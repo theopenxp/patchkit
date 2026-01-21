@@ -1,0 +1,64 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\application.obj \
+    $(_OBJ_DIR)\i386\assemblyinfo.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\context.obj \
+    $(_OBJ_DIR)\i386\core.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\localization.obj \
+    $(_OBJ_DIR)\i386\performance.obj \
+    $(_OBJ_DIR)\i386\schemacollection.obj \
+    $(_OBJ_DIR)\i386\sql.obj \
+    $(_OBJ_DIR)\i386\win32.obj \
+    $(_OBJ_DIR)\i386\uddiadconn.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\application.obj \
+    $(_OBJ_DIR)\ia64\assemblyinfo.obj \
+    $(_OBJ_DIR)\ia64\config.obj \
+    $(_OBJ_DIR)\ia64\context.obj \
+    $(_OBJ_DIR)\ia64\core.obj \
+    $(_OBJ_DIR)\ia64\debug.obj \
+    $(_OBJ_DIR)\ia64\localization.obj \
+    $(_OBJ_DIR)\ia64\performance.obj \
+    $(_OBJ_DIR)\ia64\schemacollection.obj \
+    $(_OBJ_DIR)\ia64\sql.obj \
+    $(_OBJ_DIR)\ia64\win32.obj \
+    $(_OBJ_DIR)\ia64\uddiadconn.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\application.obj \
+    $(_OBJ_DIR)\amd64\assemblyinfo.obj \
+    $(_OBJ_DIR)\amd64\config.obj \
+    $(_OBJ_DIR)\amd64\context.obj \
+    $(_OBJ_DIR)\amd64\core.obj \
+    $(_OBJ_DIR)\amd64\debug.obj \
+    $(_OBJ_DIR)\amd64\localization.obj \
+    $(_OBJ_DIR)\amd64\performance.obj \
+    $(_OBJ_DIR)\amd64\schemacollection.obj \
+    $(_OBJ_DIR)\amd64\sql.obj \
+    $(_OBJ_DIR)\amd64\win32.obj \
+    $(_OBJ_DIR)\amd64\uddiadconn.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\application.obj \
+    $(_OBJ_DIR)\arm\assemblyinfo.obj \
+    $(_OBJ_DIR)\arm\config.obj \
+    $(_OBJ_DIR)\arm\context.obj \
+    $(_OBJ_DIR)\arm\core.obj \
+    $(_OBJ_DIR)\arm\debug.obj \
+    $(_OBJ_DIR)\arm\localization.obj \
+    $(_OBJ_DIR)\arm\performance.obj \
+    $(_OBJ_DIR)\arm\schemacollection.obj \
+    $(_OBJ_DIR)\arm\sql.obj \
+    $(_OBJ_DIR)\arm\win32.obj \
+    $(_OBJ_DIR)\arm\uddiadconn.obj
+
+PASS0_ARM_OBJECTS=
+

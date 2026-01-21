@@ -1,0 +1,1773 @@
+BUILD: Examining d:\openxp\inetsrv\uddi\source directory tree for files to compile.
+Building generated files in d:\openxp\inetsrv\uddi\source\common ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+1>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\common
+Elapsed time [0:00:00.016] ********************
+Building generated files in d:\openxp\inetsrv\uddi\source\resources ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+2>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\resources
+Elapsed time [0:00:00.016] ********************
+Building generated files in d:\openxp\inetsrv\uddi\source\setup\admin\wsi ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+3>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\admin\wsi
+Elapsed time [0:00:00.016] ********************
+Building generated files in d:\openxp\inetsrv\uddi\source\setup\web\wsi ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+4>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\web\wsi
+Elapsed time [0:00:00.031] ********************
+Building generated files in d:\openxp\inetsrv\uddi\source\setup\db\wsi ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1 386=1'
+5>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\db\wsi
+Elapsed time [0:00:00.031] ********************
+1>	mc -h obj\i386 -r obj\i386  uddievents.mc
+3>
+4>
+5>
+2>
+3>Stop.
+4>Stop.
+5>Stop.
+2>Stop.
+1>MC: Compiling uddievents.mc
+1>
+1>Stop.
+Compiling d:\openxp\inetsrv\uddi\source\version directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+1>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\version
+Elapsed time [0:00:00.844] ********************
+Compiling d:\openxp\inetsrv\uddi\source\common directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+2>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\common
+Elapsed time [0:00:00.844] ********************
+Compiling d:\openxp\inetsrv\uddi\source\core directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+3>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\core
+Elapsed time [0:00:00.922] ********************
+Compiling d:\openxp\inetsrv\uddi\source\api directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+4>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\api
+Elapsed time [0:00:00.953] ********************
+1>cl -nologo -Ii386\ -I. -I\OpenXP\nt\public\sdk\inc\mfc42 -I\OpenXP\public\sdk\inc\atl30 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG  /DWIN32 /D_WINDOWS /D_USRDLL /D_UNICODE /DUNICODE /DUSE_NTVERP     /c /Zel /Zp8 /Gy /Gi- /Gm-  /W3 /WX /WX /Gz  /QIfdiv- /QIf /G6 /GX-  /GR- /GF /GS -Z7 /Oxs  /Oy- -Z7   -FID:\OpenXP\public\sdk\inc\warning.h     .\version.cpp 
+2>    rc -l 409 -DSXS_ASSEMBLY_NAME=""""""  -DSXS_ASSEMBLY_VERSION=""""""  -DSXS_ASSEMBLY_LANGUAGE=""""""  -DSXS_PROCESSOR_ARCHITECTURE="""x86"""  -DSXS_TARGET="""uddicommon.dll"""   -DSYSTEM_COMPATIBLE_ASSEMBLY_NAME="""Microsoft.Windows.SystemCompatible"""  -DLSYSTEM_COMPATIBLE_ASSEMBLY_NAME=L"""Microsoft.Windows.SystemCompatible"""   -z "MS Sans Serif,Helv/MS Shell Dlg"  -r -fo obj\i386\uddicommon.res -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1     -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -D_AFXDLL -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt .\uddicommon.rc
+3>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 uddi.core D:\OpenXP\Tools\coffbase.txt
+Compiling d:\openxp\inetsrv\uddi\source\web directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+5>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\web
+4>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 uddi.api D:\OpenXP\Tools\coffbase.txt
+Elapsed time [0:00:00.984] ********************
+Compiling d:\openxp\inetsrv\uddi\source\addwebreference directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+6>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\addwebreference
+Elapsed time [0:00:01.000] ********************
+Compiling d:\openxp\inetsrv\uddi\source\mmc directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+7>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\mmc
+Elapsed time [0:00:01.016] ********************
+6>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 uddi.addwebreference D:\OpenXP\Tools\coffbase.txt
+5>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 uddi.web D:\OpenXP\Tools\coffbase.txt
+3>genbasemac: module uddi.core not found in D:\OpenXP\Tools\coffbase.txt
+3>	..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+Compiling d:\openxp\inetsrv\uddi\source\filter directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+8>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\filter
+Elapsed time [0:00:01.094] ********************
+Compiling d:\openxp\inetsrv\uddi\source\operator directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+6>genbasemac: module uddi.addwebreference not found in D:\OpenXP\Tools\coffbase.txt
+5>genbasemac: module uddi.web not found in D:\OpenXP\Tools\coffbase.txt
+3>'..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+3>operable program or batch file.
+4>	..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+3>
+6>	..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+4>'..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+4>operable program or batch file.
+5>	..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+3>Stop.
+3>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\operator
+6>'..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+6>operable program or batch file.
+5>'..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+Elapsed time [0:00:01.187] ********************
+5>operable program or batch file.
+4>
+7>    rc -l 409 -DSXS_ASSEMBLY_NAME="""Microsoft.Windows.ServerAdmin.UDDIServices"""  -DSXS_ASSEMBLY_VERSION="""1.0.0.0"""  -DSXS_ASSEMBLY_LANGUAGE="""x-ww"""  -DSXS_PROCESSOR_ARCHITECTURE="""x86"""  -DSXS_TARGET="""uddi.mmc.dll"""   -DSYSTEM_COMPATIBLE_ASSEMBLY_NAME="""Microsoft.Windows.SystemCompatible"""  -DLSYSTEM_COMPATIBLE_ASSEMBLY_NAME=L"""Microsoft.Windows.SystemCompatible"""   -z "MS Sans Serif,Helv/MS Shell Dlg" -DSXS_MANIFEST_OBJ1="\"obj/i386/uddimmc.man\""  -r -fo obj\i386\resource.res -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  -DISOLATION_AWARE_ENABLED /DWIN32 /D_WINDOWS /D_USRDLL /D_UNICODE /DUNICODE /DUSE_NTVERP /DISOLATION_AWARE_ENABLED    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -IC:\nt\public\sdk\inc\mfc42\OpenXP\public\sdk\inc\atl30 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 .\resource.rc
+6>
+5>
+4>Stop.
+Compiling d:\openxp\inetsrv\uddi\source\replicate directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+4>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\replicate
+Elapsed time [0:00:01.234] ********************
+Compiling d:\openxp\inetsrv\uddi\source\tools\rcf directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+5>Stop.
+6>Stop.
+5>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\rcf
+Elapsed time [0:00:01.266] ********************
+Compiling d:\openxp\inetsrv\uddi\source\tools\monitor directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+6>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\monitor
+Elapsed time [0:00:01.266] ********************
+7>	preprocessor.exe -o obj\i386\uddimmc.man -i .\uddimmc.manifest -DSXS_ASSEMBLY_NAME="\"Microsoft.Windows.ServerAdmin.UDDIServices\""  -DSXS_ASSEMBLY_VERSION="\"1.0.0.0\""  -DSXS_ASSEMBLY_LANGUAGE="\"x-ww\""  -DSXS_PROCESSOR_ARCHITECTURE="\"x86\""  -DSXS_TARGET="\"uddi.mmc.dll\""   -DSYSTEM_COMPATIBLE_ASSEMBLY_NAME="\"Microsoft.Windows.SystemCompatible\""  -DLSYSTEM_COMPATIBLE_ASSEMBLY_NAME=L"\"Microsoft.Windows.SystemCompatible\""  
+8>    rc -l 409 -DSXS_ASSEMBLY_NAME=""""""  -DSXS_ASSEMBLY_VERSION=""""""  -DSXS_ASSEMBLY_LANGUAGE=""""""  -DSXS_PROCESSOR_ARCHITECTURE="""x86"""  -DSXS_TARGET="""uddi.filter.dll"""   -DSYSTEM_COMPATIBLE_ASSEMBLY_NAME="""Microsoft.Windows.SystemCompatible"""  -DLSYSTEM_COMPATIBLE_ASSEMBLY_NAME=L"""Microsoft.Windows.SystemCompatible"""   -z "MS Sans Serif,Helv/MS Shell Dlg"  -r -fo obj\i386\filter.res -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  /DWIN32 /D_USRDLL /DUSE_NTVERP    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -D_AFXDLL /D_ATL_DLL -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\atl30 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 .\filter.rc
+3>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 uddi.operator D:\OpenXP\Tools\coffbase.txt
+4>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 replicate D:\OpenXP\Tools\coffbase.txt
+6>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 monitor D:\OpenXP\Tools\coffbase.txt
+5>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 rcf D:\OpenXP\Tools\coffbase.txt
+3>genbasemac: module uddi.operator not found in D:\OpenXP\Tools\coffbase.txt
+6>genbasemac: module monitor not found in D:\OpenXP\Tools\coffbase.txt
+4>genbasemac: module replicate not found in D:\OpenXP\Tools\coffbase.txt
+5>genbasemac: module rcf not found in D:\OpenXP\Tools\coffbase.txt
+Compiling d:\openxp\inetsrv\uddi\source\tools\send directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+3>	..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+4>	..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+3>'..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+3>operable program or batch file.
+6>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+5>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+4>'..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+4>operable program or batch file.
+3>
+6>'..\..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+6>operable program or batch file.
+5>'..\..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+5>operable program or batch file.
+4>
+3>Stop.
+3>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\send
+Elapsed time [0:00:01.547] ********************
+6>
+5>
+Compiling d:\openxp\inetsrv\uddi\source\tools\resetkey directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+4>Stop.
+4>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\resetkey
+5>Stop.
+6>Stop.
+Elapsed time [0:00:01.578] ********************
+Compiling d:\openxp\inetsrv\uddi\source\tools\validate directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+6>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\validate
+Elapsed time [0:00:01.578] ********************
+Compiling d:\openxp\inetsrv\uddi\source\tools\bootstrap directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+5>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\bootstrap
+Elapsed time [0:00:01.594] ********************
+4>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 resetkey D:\OpenXP\Tools\coffbase.txt
+4>genbasemac: module resetkey not found in D:\OpenXP\Tools\coffbase.txt
+5>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 Bootstrap D:\OpenXP\Tools\coffbase.txt
+4>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+5>genbasemac: module Bootstrap not found in D:\OpenXP\Tools\coffbase.txt
+4>'..\..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+4>operable program or batch file.
+3>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 send D:\OpenXP\Tools\coffbase.txt
+6>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 validate D:\OpenXP\Tools\coffbase.txt
+4>
+5>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+5>'..\..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+5>operable program or batch file.
+4>Stop.
+1>version.cpp
+5>
+3>genbasemac: module send not found in D:\OpenXP\Tools\coffbase.txt
+5>Stop.
+Compiling d:\openxp\inetsrv\uddi\source\tools\migrate directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+4>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\migrate
+Elapsed time [0:00:01.812] ********************
+6>genbasemac: module validate not found in D:\OpenXP\Tools\coffbase.txt
+Compiling d:\openxp\inetsrv\uddi\source\tools\replicationadmin directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+5>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\replicationadmin
+Elapsed time [0:00:01.828] ********************
+Compiling d:\openxp\inetsrv\uddi\source\tools\recalcstats directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+3>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+6>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+3>'..\..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+3>operable program or batch file.
+6>'..\..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+6>operable program or batch file.
+4>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 migrate D:\OpenXP\Tools\coffbase.txt
+3>
+5>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 replicationadmin D:\OpenXP\Tools\coffbase.txt
+6>
+3>Stop.
+3>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\tools\recalcstats
+Elapsed time [0:00:01.922] ********************
+6>Stop.
+Compiling d:\openxp\inetsrv\uddi\source\resources directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+6>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\resources
+Elapsed time [0:00:01.937] ********************
+Compiling d:\openxp\inetsrv\uddi\source\setup\admin\wsi directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+4>genbasemac: module migrate not found in D:\OpenXP\Tools\coffbase.txt
+3>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 recalcstats D:\OpenXP\Tools\coffbase.txt
+5>genbasemac: module replicationadmin not found in D:\OpenXP\Tools\coffbase.txt
+4>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+6>	( echo. )
+4>'..\..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+4>operable program or batch file.
+6> 
+3>genbasemac: module recalcstats not found in D:\OpenXP\Tools\coffbase.txt
+4>
+6>
+4>Stop.
+6>Stop.
+6>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\admin\wsi
+Elapsed time [0:00:02.078] ********************
+Compiling d:\openxp\inetsrv\uddi\source\setup\web\ca.unmanaged directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+4>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\web\ca.unmanaged
+5>	resgen.exe .\adminframe.resx obj\i386\adminframe.resources
+Elapsed time [0:00:02.078] ********************
+Compiling d:\openxp\inetsrv\uddi\source\setup\web\ca directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+3>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+3>'..\..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+3>operable program or batch file.
+6>	echo.
+3>
+6>
+3>Stop.
+3>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\web\ca
+Elapsed time [0:00:02.172] ********************
+Compiling d:\openxp\inetsrv\uddi\source\setup\web\wsi directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+3>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 webca D:\OpenXP\Tools\coffbase.txt
+4>    rc -l 409 -DSXS_ASSEMBLY_NAME=""""""  -DSXS_ASSEMBLY_VERSION=""""""  -DSXS_ASSEMBLY_LANGUAGE=""""""  -DSXS_PROCESSOR_ARCHITECTURE="""x86"""  -DSXS_TARGET="""webcaum.dll"""   -DSYSTEM_COMPATIBLE_ASSEMBLY_NAME="""Microsoft.Windows.SystemCompatible"""  -DLSYSTEM_COMPATIBLE_ASSEMBLY_NAME=L"""Microsoft.Windows.SystemCompatible"""   -z "MS Sans Serif,Helv/MS Shell Dlg"  -r -fo obj\i386\webcaum.res -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  -DWEBCAUM_EXPORTS /DWIN32 /D_WINDOWS /D_USRDLL /D_UNICODE /DUNICODE /DUSE_NTVERP    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\atl30 -IC:\nt\public\sdk\inc\mfc42 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 .\webcaum.rc
+6>	( echo. )
+6> 
+6>
+6>Stop.
+6>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\web\wsi
+Elapsed time [0:00:02.297] ********************
+3>genbasemac: module webca not found in D:\OpenXP\Tools\coffbase.txt
+3>	resgen.exe .\webca.resx obj\i386\webca.resources
+6>	echo.
+6>
+Compiling d:\openxp\inetsrv\uddi\source\setup\db\ca directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+6>	( echo. )
+6> 
+6>
+6>Stop.
+6>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\db\ca
+Elapsed time [0:00:02.484] ********************
+6>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 dbca D:\OpenXP\Tools\coffbase.txt
+8>warning RC4005: 'WIN32' : redefinition
+4>warning RC4005: 'WIN32' : redefinition
+Compiling d:\openxp\inetsrv\uddi\source\setup\db\ca.unmanaged directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+2>cl -nologo -Ii386\ -I. -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1     -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -D_AFXDLL   /c /Zel /Zp8 /Gy /Gi- /Gm-  /W3 /WX /WX /Gz  /QIfdiv- /QIf /G6 /GX  /GR /GF /GS -Z7 /Oxs  /Oy- -Z7   -FID:\OpenXP\public\sdk\inc\warning.h     .\uddicommon.cpp 
+8>cl -nologo -Ii386\ -I. -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\atl30 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  /DWIN32 /D_USRDLL /DUSE_NTVERP    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -D_AFXDLL /D_ATL_DLL   /c /Zel /Zp8 /Gy /Gi- /Gm-  /W3 /WX /WX /Gz  /QIfdiv- /QIf /G6 /GX  /GR /GF /GS -Z7 /Oxs  /Oy- -Z7   -FID:\OpenXP\public\sdk\inc\warning.h     .\filter.cpp 
+4>cl -nologo -Ii386\ -I. -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\atl30 -IC:\nt\public\sdk\inc\mfc42 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  -DWEBCAUM_EXPORTS /DWIN32 /D_WINDOWS /D_USRDLL /D_UNICODE /DUNICODE /DUSE_NTVERP    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL   /c /Zel /Zp8 /Gy /Gi- /Gm-  /W3 /WX /WX /Gz  /QIfdiv- /QIf /G6 /GX  /GR /GF /GS -Z7 /Oxs  /Oy- -Z7   -FID:\OpenXP\public\sdk\inc\warning.h     .\apppool.cpp .\common.cpp .\strlist.cpp .\iis.metabase.cpp .\setdacl.cpp .\webcaum.cpp 
+6>genbasemac: module dbca not found in D:\OpenXP\Tools\coffbase.txt
+2>uddicommon.cpp
+4>apppool.cpp
+8>filter.cpp
+6>	resgen.exe .\dbca.resx obj\i386\dbca.resources
+6>
+6>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+6>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+6>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+6>   at System.Resources.ResourceReader.ReadResources()
+6>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+6>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+6>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+6>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+6>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+6>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+6>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+6>   at System.Environment.GetResourceString(String key)
+6>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+6>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+6>   at System.Globalization.CultureInfo..cctor()
+6>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+6>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+6>   at System.Threading.Thread.get_CurrentUICulture()6>	..\..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+6>'..\..\..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+6>operable program or batch file.
+6>	echo.
+6>
+6>
+6>Stop.
+6>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\db\ca.unmanaged
+Elapsed time [0:00:04.187] ********************
+Compiling d:\openxp\inetsrv\uddi\source\setup\db\wsi directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+6>    rc -l 409 -DSXS_ASSEMBLY_NAME=""""""  -DSXS_ASSEMBLY_VERSION=""""""  -DSXS_ASSEMBLY_LANGUAGE=""""""  -DSXS_PROCESSOR_ARCHITECTURE="""x86"""  -DSXS_TARGET="""dbcaum.dll"""   -DSYSTEM_COMPATIBLE_ASSEMBLY_NAME="""Microsoft.Windows.SystemCompatible"""  -DLSYSTEM_COMPATIBLE_ASSEMBLY_NAME=L"""Microsoft.Windows.SystemCompatible"""   -z "MS Sans Serif,Helv/MS Shell Dlg"  -r -fo obj\i386\dbcaum.res -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  -DDBCAUM_EXPORTS /DWIN32 /D_WINDOWS /D_USRDLL /D_UNICODE /DUNICODE /DUSE_NTVERP    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\mfc42 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 .\dbcaum.rc
+7>	FusionManifestValidator /b /s:D:\OpenXP\Tools\appschema.xml /m:obj\i386\uddimmc.man
+6>warning RC4005: 'WIN32' : redefinition
+6>cl -nologo -Ii386\ -I. -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\mfc42 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  -DDBCAUM_EXPORTS /DWIN32 /D_WINDOWS /D_USRDLL /D_UNICODE /DUNICODE /DUSE_NTVERP    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL   /c /Zel /Zp8 /Gy /Gi- /Gm-  /W3 /WX /WX /Gz  /QIfdiv- /QIf /G6 /GX  /GR /GF /GS -Z7 /Oxs  /Oy- -Z7   -FID:\OpenXP\public\sdk\inc\warning.h     .\apppool.cpp .\common.cpp .\dbcaum.cpp 
+6>apppool.cpp
+7>C:\Users\ntvbl06\AppData\Local\Temp\nmB7EE.tmp
+7>.\resource.rc
+7>        1 file(s) copied.
+2>	( echo. )
+5>
+5>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+5>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+5>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+5>   at System.Resources.ResourceReader.ReadResources()
+5>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+5>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+5>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+5>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+5>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+5>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+5>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+5>   at System.Environment.GetResourceString(String key)
+5>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+5>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+5>   at System.Globalization.CultureInfo..cctor()
+5>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+5>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+5>   at System.Threading.Thread.get_CurrentUICulture()2> 
+5>	resgen.exe .\changelogcontrol.resx obj\i386\changelogcontrol.resources
+2>
+2>Stop.
+2>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\db\wsi
+Elapsed time [0:00:05.281] ********************
+Compiling d:\openxp\inetsrv\uddi\source\setup\ocm directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+2>	echo.
+1>
+2>
+1>Stop.
+1>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\ocm
+Elapsed time [0:00:05.391] ********************
+Compiling d:\openxp\inetsrv\uddi\source\setup\msitoddf directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+2>	( echo. )
+2> 
+2>
+2>Stop.
+2>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\msitoddf
+Elapsed time [0:00:05.500] ********************
+Compiling d:\openxp\inetsrv\uddi\source\setup\uddimsifiler directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+1>    rc -l 409 -DSXS_ASSEMBLY_NAME=""""""  -DSXS_ASSEMBLY_VERSION=""""""  -DSXS_ASSEMBLY_LANGUAGE=""""""  -DSXS_PROCESSOR_ARCHITECTURE="""x86"""  -DSXS_TARGET="""uddiocm.dll"""   -DSYSTEM_COMPATIBLE_ASSEMBLY_NAME="""Microsoft.Windows.SystemCompatible"""  -DLSYSTEM_COMPATIBLE_ASSEMBLY_NAME=L"""Microsoft.Windows.SystemCompatible"""   -z "MS Sans Serif,Helv/MS Shell Dlg"  -r -fo obj\i386\uddiocm.res -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  -DUDDIOCM_EXPORTS /DWIN32 /D_WINDOWS /D_USRDLL /D_UNICODE /DUNICODE /DUSE_NTVERP    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I..\shared -I\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\mfc42 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 .\uddiocm.rc
+2>cl -nologo -Ii386\ -I. -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\atl30 -IC:\nt\public\sdk\inc\mfc42 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  /DWIN32 /D_CONSOLE /D_UNICODE /DUNICODE    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL   /c /Zel /Zp8 /Gy /Gi- /Gm-  /W3 /WX /WX /Gz  /QIfdiv- /QIf /G6 /GX  /GR /GF /GS -Z7 /Oxs  /Oy- -Z7   -FID:\OpenXP\public\sdk\inc\warning.h   /Ylmsitoddf /Ycstdafx.h /Fpobj\i386\stdafx.pch  /Fo"D:\OpenXP\inetsrv\uddi\source\setup\msitoddf\obj\i386\stdafx.obj"  /Tp
+2>
+2>#include "stdafx.h"
+2>
+7>warning RC4005: 'WIN32' : redefinition
+2>pch_hdr.src
+7>cl -nologo -Ii386\ -I. -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -IC:\nt\public\sdk\inc\mfc42\OpenXP\public\sdk\inc\atl30 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  -DISOLATION_AWARE_ENABLED /DWIN32 /D_WINDOWS /D_USRDLL /D_UNICODE /DUNICODE /DUSE_NTVERP /DISOLATION_AWARE_ENABLED    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL   /c /Zel /Zp8 /Gy /Gi- /Gm-  /W3 /WX /WX /Gz  /QIfdiv- /QIf /G6 /GX  /GR /GF /GS -Z7 /Oxs  /Oy- -Z7   -FID:\OpenXP\public\sdk\inc\warning.h     .\about.cpp .\basesnap.cpp .\comp.cpp .\compdata.cpp .\dataobj.cpp .\delebase.cpp .\mmccrack.cpp .\objectpicker.cpp .\scp.cpp .\scppublisher.cpp .\uddi.cpp .\uddiservicesnode.cpp .\uddisitenode.cpp .\webservernode.cpp .\servercheck.cpp .\stringutil.cpp 
+7>about.cpp
+1>warning RC4005: 'WIN32' : redefinition
+1>cl -nologo -Ii386\ -I. -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I..\shared -I\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\mfc42 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  -DUDDIOCM_EXPORTS /DWIN32 /D_WINDOWS /D_USRDLL /D_UNICODE /DUNICODE /DUSE_NTVERP    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL   /c /Zel /Zp8 /Gy /Gi- /Gm-  /W3 /WX /WX /Gz  /QIfdiv- /QIf /G6 /GX  /GR /GF /GS -Z7 /Oxs  /Oy- -Z7   -FID:\OpenXP\public\sdk\inc\warning.h     .\appcompat.cpp .\strlist.cpp .\uddiinst.cpp .\uddiocm.cpp .\wizpage.cpp .\objectpicker.cpp .\ocmcallback.cpp .\common.cpp 
+3>
+3>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+3>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+3>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+3>   at System.Resources.ResourceReader.ReadResources()
+3>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+3>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+3>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+3>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+3>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+3>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+3>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+3>   at System.Environment.GetResourceString(String key)
+3>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+3>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+3>   at System.Globalization.CultureInfo..cctor()
+3>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+3>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+3>   at System.Threading.Thread.get_CurrentUICulture()3>	..\..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+3>'..\..\..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+3>operable program or batch file.
+1>appcompat.cpp
+3>
+3>Stop.
+3>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\setup\uddimsifiler
+Elapsed time [0:00:06.000] ********************
+Compiling d:\openxp\inetsrv\uddi\source\xp directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+3>cl -nologo -Ii386\ -I. -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\atl30 -IC:\nt\public\sdk\inc\mfc42 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  /DWIN32 /D_CONSOLE /D_UNICODE /DUNICODE    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL   /c /Zel /Zp8 /Gy /Gi- /Gm-  /W3 /WX /WX /Gz  /QIfdiv- /QIf /G6 /GX  /GR /GF /GS -Z7 /Oxs  /Oy- -Z7   -FID:\OpenXP\public\sdk\inc\warning.h   /Yluddimsifiler /Ycstdafx.h /Fpobj\i386\stdafx.pch  /Fo"D:\OpenXP\inetsrv\uddi\source\setup\uddimsifiler\obj\i386\stdafx.obj"  /Tp
+3>
+3>#include "stdafx.h"
+3>
+3>pch_hdr.src
+2>    rc -l 409 -DSXS_ASSEMBLY_NAME=""""""  -DSXS_ASSEMBLY_VERSION=""""""  -DSXS_ASSEMBLY_LANGUAGE=""""""  -DSXS_PROCESSOR_ARCHITECTURE="""x86"""  -DSXS_TARGET="""msitoddf.exe"""   -DSYSTEM_COMPATIBLE_ASSEMBLY_NAME="""Microsoft.Windows.SystemCompatible"""  -DLSYSTEM_COMPATIBLE_ASSEMBLY_NAME=L"""Microsoft.Windows.SystemCompatible"""   -z "MS Sans Serif,Helv/MS Shell Dlg"  -r -fo obj\i386\msitoddf.res -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  /DWIN32 /D_CONSOLE /D_UNICODE /DUNICODE    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\atl30 -IC:\nt\public\sdk\inc\mfc42 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 .\msitoddf.rc
+2>warning RC4005: 'WIN32' : redefinition
+2>cl -nologo -Ii386\ -I. -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\atl30 -IC:\nt\public\sdk\inc\mfc42 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  /DWIN32 /D_CONSOLE /D_UNICODE /DUNICODE    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL   /c /Zel /Zp8 /Gy /Gi- /Gm-  /W3 /WX /WX /Gz  /QIfdiv- /QIf /G6 /GX  /GR /GF /GS -Z7 /Oxs  /Oy- -Z7   -FID:\OpenXP\public\sdk\inc\warning.h  /Yustdafx.h /Fpobj\i386\stdafx.pch   .\msitoddf.cpp 
+2>msitoddf.cpp
+3>    rc -l 409 -DSXS_ASSEMBLY_NAME=""""""  -DSXS_ASSEMBLY_VERSION=""""""  -DSXS_ASSEMBLY_LANGUAGE=""""""  -DSXS_PROCESSOR_ARCHITECTURE="""x86"""  -DSXS_TARGET="""uddimsifiler.exe"""   -DSYSTEM_COMPATIBLE_ASSEMBLY_NAME="""Microsoft.Windows.SystemCompatible"""  -DLSYSTEM_COMPATIBLE_ASSEMBLY_NAME=L"""Microsoft.Windows.SystemCompatible"""   -z "MS Sans Serif,Helv/MS Shell Dlg"  -r -fo obj\i386\uddimsifiler.res -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  /DWIN32 /D_CONSOLE /D_UNICODE /DUNICODE    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\atl30 -IC:\nt\public\sdk\inc\mfc42 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 .\uddimsifiler.rc
+5>
+5>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+5>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+5>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+5>   at System.Resources.ResourceReader.ReadResources()
+5>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+5>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+5>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+5>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+5>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+5>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+5>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+5>   at System.Environment.GetResourceString(String key)
+5>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+5>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+5>   at System.Globalization.CultureInfo..cctor()
+5>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+5>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+5>   at System.Threading.Thread.get_CurrentUICulture()5>	resgen.exe .\correctionadmin.resx obj\i386\correctionadmin.resources
+2>
+2>Stop.
+2>BUILDMSG: Processing d:\openxp\inetsrv\uddi\source\xp
+Elapsed time [0:00:06.812] ********************
+3>warning RC4005: 'WIN32' : redefinition
+3>cl -nologo -Ii386\ -I. -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -ID:\OpenXP\public\sdk\inc\atl30 -I\OpenXP\public\sdk\inc\atl30 -IC:\nt\public\sdk\inc\mfc42 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1  /DWIN32 /D_CONSOLE /D_UNICODE /DUNICODE    -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL /D_ATL_DLL   /c /Zel /Zp8 /Gy /Gi- /Gm-  /W3 /WX /WX /Gz  /QIfdiv- /QIf /G6 /GX  /GR /GF /GS -Z7 /Oxs  /Oy- -Z7   -FID:\OpenXP\public\sdk\inc\warning.h  /Yustdafx.h /Fpobj\i386\stdafx.pch   .\uddimsifiler.cpp 
+3>uddimsifiler.cpp
+2>cl -nologo -Ii386\ -I. -ID:\OpenXP\public\sdk\inc\mfc42 -ID:\OpenXP\public\sdk\inc\dao350 -Iobj\i386 -ID:\OpenXP\InetSrv\inc -ID:\OpenXP\InetSrv\inc\obj\i386 -ID:\OpenXP\public\internal\InetSrv\inc -ID:\OpenXP\public\oak\inc -ID:\OpenXP\public\sdk\inc -ID:\OpenXP\public\sdk\inc\crt -ID:\OpenXP\public\sdk\inc\crt\stl60 -D_X86_=1 -Di386=1   -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -DDBG=1 -D__BUILDDATE__=260111-1250 -D__BUILDMACHINE__=mxb1_tech_demo("ntvbl06") -DFPO=0  -DNDEBUG -D_DLL=1 -D_MT=1     -D_AFX_NOFORCE_LIBS -D_MFC_VER=0x0600 -DUNICODE -D_UNICODE -D_AFXDLL   /c /Zel /Zp8 /Gy /Gi- /Gm-  /W3 /WX /WX /Gd  /QIfdiv- /QIf /G6 /GX  /GR /GF /GS -Z7 /Oxs  /Oy- -Z7   -FID:\OpenXP\public\sdk\inc\warning.h     .\uddi.xp.cpp .\xp_recalculate_statistics.cpp .\xp_reset_key.cpp 
+2>uddi.xp.cpp
+3>
+3>Stop.
+5>
+5>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+5>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+5>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+5>   at System.Resources.ResourceReader.ReadResources()
+5>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+5>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+5>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+5>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+5>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+5>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+5>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+5>   at System.Environment.GetResourceString(String key)
+5>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+5>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+5>   at System.Globalization.CultureInfo..cctor()
+5>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+5>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+5>   at System.Threading.Thread.get_CurrentUICulture()5>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+5>'..\..\version\obj\i386\version.exe' is not recognized as an internal or external command,
+5>operable program or batch file.
+5>
+5>Stop.
+1>strlist.cpp
+1>uddiinst.cpp
+2>xp_recalculate_statistics.cpp
+4>common.cpp
+6>common.cpp
+8>	lib -out:obj\i386\uddi.filter.lib @C:\Users\ntvbl06\AppData\Local\Temp\nmC55C.tmp
+2>xp_reset_key.cpp
+2>Generating Code...
+6>dbcaum.cpp
+4>strlist.cpp
+7>basesnap.cpp
+4>iis.metabase.cpp
+2>	lib -out:obj\i386\uddi.xp.lib @C:\Users\ntvbl06\AppData\Local\Temp\nmC963.tmp
+8>Microsoft (R) Library Manager Version 7.10.2179
+8>Copyright (C) Microsoft Corporation.  All rights reserved.
+8>
+8>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+8>/WX 
+8>-nodefaultlib 
+8>-machine:ix86 
+8>-def:filter.def 
+8>D:\OpenXP\public\sdk\lib\i386\mfcs42.lib 
+8>obj\i386\filter.res 
+8>obj\i386\filter.obj 
+6>Generating Code...
+8>   Creating library obj\i386\uddi.filter.lib and object obj\i386\uddi.filter.exp
+2>Microsoft (R) Library Manager Version 7.10.2179
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>
+2>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+2>/WX 
+2>-nodefaultlib 
+2>-machine:ix86 
+2>-def:uddi.xp.def 
+2>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+2>obj\i386\uddi.xp.obj 
+2>obj\i386\xp_recalculate_statistics.obj 
+2>obj\i386\xp_reset_key.obj 
+2>   Creating library obj\i386\uddi.xp.lib and object obj\i386\uddi.xp.exp
+2>
+8>
+2>Stop.
+8>Stop.
+6>	lib -out:obj\i386\dbcaum.lib @C:\Users\ntvbl06\AppData\Local\Temp\nmCACA.tmp
+6>Microsoft (R) Library Manager Version 7.10.2179
+6>Copyright (C) Microsoft Corporation.  All rights reserved.
+6>
+6>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+6>/WX 
+6>-nodefaultlib 
+6>-machine:ix86 
+6>-def:dbcaum.def 
+6>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+6>obj\i386\dbcaum.res 
+6>obj\i386\apppool.obj 
+6>obj\i386\common.obj 
+6>obj\i386\dbcaum.obj 
+6>   Creating library obj\i386\dbcaum.lib and object obj\i386\dbcaum.exp
+6>
+6>Stop.
+4>setdacl.cpp
+4>webcaum.cpp
+7>comp.cpp
+4>Generating Code...
+4>	lib -out:obj\i386\webcaum.lib @C:\Users\ntvbl06\AppData\Local\Temp\nmD20E.tmp
+7>compdata.cpp
+4>Microsoft (R) Library Manager Version 7.10.2179
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>
+4>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+4>/WX 
+4>-nodefaultlib 
+4>-machine:ix86 
+4>-def:webcaum.def 
+4>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+4>obj\i386\webcaum.res 
+4>obj\i386\apppool.obj 
+4>obj\i386\common.obj 
+4>obj\i386\strlist.obj 
+4>obj\i386\iis.metabase.obj 
+4>obj\i386\setdacl.obj 
+4>obj\i386\webcaum.obj 
+4>   Creating library obj\i386\webcaum.lib and object obj\i386\webcaum.exp
+4>
+4>Stop.
+1>uddiocm.cpp
+7>dataobj.cpp
+7>delebase.cpp
+1>wizpage.cpp
+7>mmccrack.cpp
+7>objectpicker.cpp
+7>scp.cpp
+1>objectpicker.cpp
+1>ocmcallback.cpp
+1>common.cpp
+7>scppublisher.cpp
+1>Generating Code...
+7>uddi.cpp
+1>	lib -out:obj\i386\uddiocm.lib @C:\Users\ntvbl06\AppData\Local\Temp\nmE056.tmp
+1>Microsoft (R) Library Manager Version 7.10.2179
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>
+1>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+1>/WX 
+1>-nodefaultlib 
+1>-machine:ix86 
+1>-def:uddiocm.def 
+1>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+1>obj\i386\uddiocm.res 
+1>obj\i386\appcompat.obj 
+1>obj\i386\strlist.obj 
+1>obj\i386\uddiinst.obj 
+1>obj\i386\uddiocm.obj 
+1>obj\i386\wizpage.obj 
+1>obj\i386\objectpicker.obj 
+1>obj\i386\ocmcallback.obj 
+1>obj\i386\common.obj 
+1>   Creating library obj\i386\uddiocm.lib and object obj\i386\uddiocm.exp
+1>
+1>Stop.
+7>uddiservicesnode.cpp
+7>uddisitenode.cpp
+7>webservernode.cpp
+7>servercheck.cpp
+7>stringutil.cpp
+7>Generating Code...
+7>	lib -out:obj\i386\uddi.mmc.lib @C:\Users\ntvbl06\AppData\Local\Temp\nmF798.tmp
+7>Microsoft (R) Library Manager Version 7.10.2179
+7>Copyright (C) Microsoft Corporation.  All rights reserved.
+7>
+7>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+7>/WX 
+7>-nodefaultlib 
+7>-machine:ix86 
+7>-def:uddi.mmc.def 
+7>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+7>obj\i386\resource.res 
+7>obj\i386\about.obj 
+7>obj\i386\basesnap.obj 
+7>obj\i386\comp.obj 
+7>obj\i386\compdata.obj 
+7>obj\i386\dataobj.obj 
+7>obj\i386\delebase.obj 
+7>obj\i386\mmccrack.obj 
+7>obj\i386\objectpicker.obj 
+7>obj\i386\scp.obj 
+7>obj\i386\scppublisher.obj 
+7>obj\i386\uddi.obj 
+7>obj\i386\uddiservicesnode.obj 
+7>obj\i386\uddisitenode.obj 
+7>obj\i386\webservernode.obj 
+7>obj\i386\servercheck.obj 
+7>obj\i386\stringutil.obj 
+7>   Creating library obj\i386\uddi.mmc.lib and object obj\i386\uddi.mmc.exp
+7>
+7>Stop.
+Linking d:\openxp\inetsrv\uddi\source\version directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>	link -out:obj\i386\version.exe -machine:ix86 @C:\Users\ntvbl06\AppData\Local\Temp\nmF8FF.tmp
+1>Microsoft (R) Incremental Linker Version 7.10.2179
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>
+1>-MERGE:_PAGE=PAGE 
+1>-MERGE:_TEXT=.text 
+1>-SECTION:INIT,d 
+1>-OPT:REF 
+1>-OPT:ICF 
+1>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+1>-INCREMENTAL:NO 
+1>-FULLBUILD 
+1>/release 
+1>-NODEFAULTLIB 
+1>/WX 
+1>-debug:FULL 
+1>-debugtype:cv 
+1>-version:5.2 
+1>-osversion:5.2 
+1>-debug:full 
+1>-debugtype:cv,fixup 
+1>/opt:nowin98 
+1>-PDBPATH:NONE 
+1>-merge:.rdata=.text 
+1>-STACK:0x40000,0x2000 
+1>/tsaware 
+1>-subsystem:console,4.00 
+1>-base:@D:\OpenXP\Tools\coffbase.txt,usermode 
+1>-entry:mainCRTStartup 
+1>obj\i386\version.obj 
+1>D:\OpenXP\public\sdk\lib\i386\BufferOverflowU.lib 
+1>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\libc.lib 
+1>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\comctl32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\comdlg32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\comsvcs.lib 
+1>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\shell32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\shlwapi.lib 
+1>D:\OpenXP\public\sdk\lib\i386\Secur32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\user32.lib 
+1>	compact /c /q obj\i386\version.pdb
+1>
+1> Compressing files in d:\openxp\inetsrv\uddi\source\version\obj\i386\
+1>
+1>
+1>1 files within 1 directories were compressed.
+1>199,680 total bytes of data are stored in 94,208 bytes.
+1>The compression ratio is 2.1 to 1.
+1>	echo.
+1>
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:23.141] ********************
+Linking d:\openxp\inetsrv\uddi\source\common directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Elapsed time [0:00:23.156] ********************
+Linking d:\openxp\inetsrv\uddi\source\core directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 uddi.core D:\OpenXP\Tools\coffbase.txt
+1>	lib -out:obj\i386\uddicommon.lib @C:\Users\ntvbl06\AppData\Local\Temp\nmFF19.tmp
+1>genbasemac: module uddi.core not found in D:\OpenXP\Tools\coffbase.txt
+1>Microsoft (R) Library Manager Version 7.10.2179
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>
+1>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+1>/WX 
+1>-nodefaultlib 
+1>-machine:ix86 
+1>-def:uddicommon.def 
+1>D:\OpenXP\public\sdk\lib\i386\mfcs42.lib 
+1>obj\i386\uddicommon.res 
+1>obj\i386\uddicommon.obj 
+1>	..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>   Creating library obj\i386\uddicommon.lib and object obj\i386\uddicommon.exp
+1>	link -out:obj\i386\uddicommon.dll -machine:ix86 @C:\Users\ntvbl06\AppData\Local\Temp\nmFFD6.tmp
+1>	csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:library  /out:obj\i386\uddi.core.dll  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:system.dll,system.data.dll,system.web.dll,system.xml.dll,system.directoryservices.dll     application.cs    assemblyinfo.cs    config.cs    context.cs    core.cs    debug.cs    localization.cs    performance.cs    schemacollection.cs    sql.cs    win32.cs	 uddiadconn.cs 
+1>Microsoft (R) Incremental Linker Version 7.10.2179
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>
+1>/include:__afxForceSTDAFX 
+1>-MERGE:_PAGE=PAGE 
+1>-MERGE:_TEXT=.text 
+1>-SECTION:INIT,d 
+1>-OPT:REF 
+1>-OPT:ICF 
+1>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+1>-INCREMENTAL:NO 
+1>-FULLBUILD 
+1>/release 
+1>-NODEFAULTLIB 
+1>/WX 
+1>-debug:FULL 
+1>-debugtype:cv 
+1>-version:5.2 
+1>-osversion:5.2 
+1>-debug:full 
+1>-debugtype:cv,fixup 
+1>/opt:nowin98 
+1>-PDBPATH:NONE 
+1>-merge:.rdata=.text 
+1>-STACK:0x40000,0x1000 
+1>-dll 
+1>-base:@D:\OpenXP\Tools\coffbase.txt,uddicommon 
+1>-subsystem:windows,4.00 
+1>-entry:_DllMainCRTStartup@12 
+1>obj\i386\uddicommon.exp 
+1>obj\i386\uddicommon.res 
+1>obj\i386\uddicommon.obj 
+1>D:\OpenXP\public\sdk\lib\i386\BufferOverflowU.lib 
+1>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\mfcs42.lib 
+1>D:\OpenXP\public\sdk\lib\i386\mfc42.lib 
+1>D:\OpenXP\public\sdk\lib\i386\msvcrt.lib 
+1>D:\OpenXP\public\sdk\lib\i386\ntdll.lib 
+1>error CS1577: Assembly generation failed -- Unspecified error 
+1>binplace d:\openxp\inetsrv\uddi\source\core\obj\i386\uddi.core.dll
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\core\obj\i386\uddi.core.dll,D:\binaries.x86chk\.\uddi\bin\uddi.core.dll) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\uddi.core.dll - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:24.016] ********************
+Linking d:\openxp\inetsrv\uddi\source\api directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 uddi.api D:\OpenXP\Tools\coffbase.txt
+1>	compact /c /q obj\i386\uddicommon.pdb
+1>	..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>
+1> Compressing files in d:\openxp\inetsrv\uddi\source\common\obj\i386\
+1>
+1>	csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:library  /out:obj\i386\uddi.api.dll  /baseaddress:0x78400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:system.dll,system.data.dll,system.web.dll,system.web.services.dll,system.xml.dll,..\core\obj\i386\uddi.core.dll,passportlib.dll     address.cs		 assemblyinfo.cs		 assemblyversioninfo.cs		 assertion.cs		 authentication.cs	 binding.cs		 business.cs		 category.cs		 changerecord.cs		 contact.cs		 description.cs		 discoveryurl.cs		 email.cs		 extension.cs		 find.cs			 inquire.cs		 keyedreference.cs	 logs.cs			 messages.cs		 name.cs			 phone.cs		 publish.cs		 service.cs		 taxonomy.cs		 tmodel.cs		 types.cs		 serializer.cs 
+1>
+1>1 files within 1 directories were compressed.
+1>1,412,096 total bytes of data are stored in 831,488 bytes.
+1>The compression ratio is 1.7 to 1.
+1>	echo.
+1>
+1>error CS0006: Metadata file '..\core\obj\i386\uddi.core.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\common\obj\i386\uddicommon.dll
+1>binplace d:\openxp\inetsrv\uddi\source\api\obj\i386\uddi.api.dll
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\api\obj\i386\uddi.api.dll,D:\binaries.x86chk\.\uddi\bin\uddi.api.dll) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\uddi.api.dll - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:24.391] ********************
+Linking d:\openxp\inetsrv\uddi\source\web directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 uddi.web D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module uddi.web not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>	csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:library  /out:obj\i386\uddi.web.dll  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:system.dll,system.data.dll,system.web.dll,system.web.services.dll,system.xml.dll,..\core\obj\I386\uddi.core.dll,..\api\obj\I386\uddi.api.dll     address.cs       assemblyinfo.cs      assemblyversioninfo.cs  base.cs          bindings.cs          box.cs           breadcrumb.cs        businesses.cs        cache.cs         categorybag.cs       clientscripts.cs     contacts.cs          contextmenu.cs       description.cs       discoveryurl.cs      editcontrol.cs       email.cs         explorer.cs          format.cs        header.cs        helpcontrol.cs       identifierbag.cs     instanceinfos.cs     localization.cs      lookup.cs        name.cs          owner.cs         phone.cs         publisher.cs         security.cs          selection.cs         services.cs          sidenav.cs       statistics.cs        tab.cs           taxonomy.cs          tmodelbag.cs         tmodels.cs       tree.cs          categorybrowser.cs   taxonomytree.cs      menu.cs      validators.cs 
+1>error CS0006: Metadata file '..\core\obj\I386\uddi.core.dll' could not be found
+1>error CS0006: Metadata file '..\api\obj\I386\uddi.api.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\web\obj\i386\uddi.web.dll
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\web\obj\i386\uddi.web.dll,D:\binaries.x86chk\.\uddi\bin\uddi.web.dll) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\uddi.web.dll - exiting.
+1>	( echo. )
+1> 
+1>
+1>	( echo. )
+1>Stop.
+Elapsed time [0:00:24.891] ********************
+Linking d:\openxp\inetsrv\uddi\source\addwebreference directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+1> 
+1>
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 uddi.addwebreference D:\OpenXP\Tools\coffbase.txt
+1>Stop.
+1>genbasemac: module uddi.addwebreference not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>	csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:library  /out:obj\i386\uddi.addwebreference.dll  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:system.dll,system.data.dll,system.web.dll,system.web.services.dll,system.xml.dll,..\core\obj\I386\uddi.core.dll,..\web\obj\I386\uddi.web.dll,..\api\obj\I386\uddi.api.dll     addwebreference.cs	 paging.cs		 results.cs		 search.cs		 visualstudio.cs		 assemblyversioninfo.cs  assemblyinfo.cs 
+1>error CS0006: Metadata file '..\core\obj\I386\uddi.core.dll' could not be found
+1>error CS0006: Metadata file '..\web\obj\I386\uddi.web.dll' could not be found
+1>error CS0006: Metadata file '..\api\obj\I386\uddi.api.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\addwebreference\obj\i386\uddi.addwebreference.dll
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\addwebreference\obj\i386\uddi.addwebreference.dll,D:\binaries.x86chk\.\uddi\bin\uddi.addwebreference.dll) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\uddi.addwebreference.dll - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:25.187] ********************
+Linking d:\openxp\inetsrv\uddi\source\mmc directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Elapsed time [0:00:25.203] ********************
+Linking d:\openxp\inetsrv\uddi\source\filter directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Elapsed time [0:00:25.203] ********************
+Linking d:\openxp\inetsrv\uddi\source\operator directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 uddi.operator D:\OpenXP\Tools\coffbase.txt
+3>	link -out:obj\i386\uddi.filter.dll -machine:ix86 @C:\Users\ntvbl06\AppData\Local\Temp\nm728.tmp
+2>	link -out:obj\i386\uddi.mmc.dll -machine:ix86 @C:\Users\ntvbl06\AppData\Local\Temp\nm737.tmp
+1>genbasemac: module uddi.operator not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+3>Microsoft (R) Incremental Linker Version 7.10.2179
+3>Copyright (C) Microsoft Corporation.  All rights reserved.
+3>
+3>/include:__afxForceSTDAFX 
+3>-MERGE:_PAGE=PAGE 
+3>-MERGE:_TEXT=.text 
+3>-SECTION:INIT,d 
+3>-OPT:REF 
+3>-OPT:ICF 
+3>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+3>-INCREMENTAL:NO 
+3>-FULLBUILD 
+3>/release 
+3>-NODEFAULTLIB 
+3>/WX 
+3>-debug:FULL 
+3>-debugtype:cv 
+3>-version:5.2 
+3>-osversion:5.2 
+3>-debug:full 
+3>-debugtype:cv,fixup 
+3>/opt:nowin98 
+3>-PDBPATH:NONE 
+3>-merge:.rdata=.text 
+3>-STACK:0x40000,0x1000 
+3>-dll 
+3>-base:@D:\OpenXP\Tools\coffbase.txt,uddi.filter 
+3>-subsystem:windows,4.00 
+3>-entry:DllMain@12 
+3>obj\i386\uddi.filter.exp 
+3>obj\i386\filter.res 
+3>obj\i386\filter.obj 
+3>D:\OpenXP\public\sdk\lib\i386\BufferOverflowU.lib 
+3>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+3>D:\OpenXP\public\sdk\lib\i386\mfcs42.lib 
+3>D:\OpenXP\public\sdk\lib\i386\mfc42.lib 
+3>D:\OpenXP\public\sdk\lib\i386\msvcrt.lib 
+3>D:\OpenXP\public\sdk\lib\i386\msvcprt.lib 
+3>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+3>D:\OpenXP\public\sdk\lib\i386\ntdll.lib 
+3>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+3>D:\OpenXP\public\sdk\lib\i386\adsiid.lib 
+3>D:\OpenXP\public\sdk\lib\i386\shell32.lib 
+3>D:\OpenXP\public\sdk\lib\i386\odbc32.lib 
+3>D:\OpenXP\public\sdk\lib\i386\odbccp32.lib 
+3>D:\OpenXP\public\sdk\lib\i386\shlwapi.lib 
+3>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+3>D:\OpenXP\public\sdk\lib\i386\version.lib 
+1>	csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:library  /out:obj\i386\uddi.operator.dll  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:system.dll,system.data.dll,system.web.dll,system.web.services.dll,system.xml.dll,..\core\obj\I386\uddi.core.dll,..\api\obj\I386\uddi.api.dll     assemblyinfo.cs		 assemblyversioninfo.cs  graph.cs		 messages.cs		 nodes.cs		 operator.cs		 replication.cs		 types.cs 
+2>Microsoft (R) Incremental Linker Version 7.10.2179
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>
+2>/include:__afxForceSTDAFX 
+2>-MERGE:_PAGE=PAGE 
+2>-MERGE:_TEXT=.text 
+2>-SECTION:INIT,d 
+2>-OPT:REF 
+2>-OPT:ICF 
+2>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+2>-INCREMENTAL:NO 
+2>-FULLBUILD 
+2>/release 
+2>-NODEFAULTLIB 
+2>/WX 
+2>-debug:FULL 
+2>-debugtype:cv 
+2>-version:5.2 
+2>-osversion:5.2 
+2>-debug:full 
+2>-debugtype:cv,fixup 
+2>/opt:nowin98 
+2>-PDBPATH:NONE 
+2>-merge:.rdata=.text 
+2>-STACK:0x40000,0x1000 
+2>-dll 
+2>-base:@D:\OpenXP\Tools\coffbase.txt,uddi.mmc 
+2>-subsystem:windows,4.00 
+2>-entry:_DllMainCRTStartup@12 
+2>obj\i386\uddi.mmc.exp 
+2>obj\i386\resource.res 
+2>obj\i386\about.obj 
+2>obj\i386\basesnap.obj 
+2>obj\i386\comp.obj 
+2>obj\i386\compdata.obj 
+2>obj\i386\dataobj.obj 
+2>obj\i386\delebase.obj 
+2>obj\i386\mmccrack.obj 
+2>obj\i386\objectpicker.obj 
+2>obj\i386\scp.obj 
+2>obj\i386\scppublisher.obj 
+2>obj\i386\uddi.obj 
+2>obj\i386\uddiservicesnode.obj 
+2>obj\i386\uddisitenode.obj 
+2>obj\i386\webservernode.obj 
+2>obj\i386\servercheck.obj 
+2>obj\i386\stringutil.obj 
+2>D:\OpenXP\public\sdk\lib\i386\BufferOverflowU.lib 
+2>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+2>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+2>D:\OpenXP\public\sdk\lib\i386\mfc42u.lib 
+2>D:\OpenXP\public\sdk\lib\i386\vccomsup.lib 
+2>D:\OpenXP\public\sdk\lib\i386\msvcrt.lib 
+2>D:\OpenXP\public\sdk\lib\i386\msvcprt.lib 
+2>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+2>D:\OpenXP\public\sdk\lib\i386\ntdll.lib 
+2>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+2>D:\OpenXP\public\sdk\lib\i386\comctl32.lib 
+2>D:\OpenXP\public\sdk\lib\i386\comdlg32.lib 
+2>D:\OpenXP\public\sdk\lib\i386\comsvcs.lib 
+2>D:\OpenXP\public\sdk\lib\i386\gdi32.lib 
+2>D:\OpenXP\public\sdk\lib\i386\htmlhelp.lib 
+2>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+2>D:\OpenXP\public\sdk\lib\i386\mmc.lib 
+2>D:\OpenXP\public\sdk\lib\i386\odbc32.lib 
+2>D:\OpenXP\public\sdk\lib\i386\odbccp32.lib 
+2>D:\OpenXP\public\sdk\lib\i386\oleaut32.lib 
+2>D:\OpenXP\public\sdk\lib\i386\ole32.lib 
+2>D:\OpenXP\public\sdk\lib\i386\shell32.lib 
+2>D:\OpenXP\public\sdk\lib\i386\shlwapi.lib 
+2>D:\OpenXP\public\sdk\lib\i386\Secur32.lib 
+2>D:\OpenXP\public\sdk\lib\i386\user32.lib 
+2>D:\OpenXP\public\sdk\lib\i386\uuid.lib 
+2>D:\OpenXP\public\sdk\lib\i386\version.lib 
+2>D:\OpenXP\public\sdk\lib\i386\winspool.lib 
+2>D:\OpenXP\public\sdk\lib\i386\rpcrt4.lib 
+2>D:\OpenXP\public\sdk\lib\i386\adsiid.lib 
+2>D:\OpenXP\public\sdk\lib\i386\activeds.lib 
+2>D:\OpenXP\public\sdk\lib\i386\wbemuuid.lib 
+1>error CS0006: Metadata file '..\core\obj\I386\uddi.core.dll' could not be found
+1>error CS0006: Metadata file '..\api\obj\I386\uddi.api.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\operator\obj\i386\uddi.operator.dll
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\operator\obj\i386\uddi.operator.dll,D:\binaries.x86chk\.\uddi\bin\uddi.operator.dll) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\uddi.operator.dll - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:25.578] ********************
+Linking d:\openxp\inetsrv\uddi\source\replicate directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 replicate D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module replicate not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\replicate.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:system.dll,system.data.dll,system.xml.dll,..\core\obj\I386\uddi.core.dll,..\operator\obj\I386\uddi.operator.dll     assemblyinfo.cs		 assemblyversioninfo.cs  replicate.cs 
+3>	compact /c /q obj\i386\uddi.filter.pdb
+3>
+3> Compressing files in d:\openxp\inetsrv\uddi\source\filter\obj\i386\
+3>
+1>error CS0006: Metadata file '..\core\obj\I386\uddi.core.dll' could not be found
+1>error CS0006: Metadata file '..\operator\obj\I386\uddi.operator.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\replicate\obj\i386\replicate.exe
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\replicate\obj\i386\replicate.exe,D:\binaries.x86chk\.\uddi\bin\replicate.exe) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\replicate.exe - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:25.969] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\rcf directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+3>
+3>1 files within 1 directories were compressed.
+3>1,518,592 total bytes of data are stored in 888,832 bytes.
+3>The compression ratio is 1.7 to 1.
+3>	echo.
+3>
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 rcf D:\OpenXP\Tools\coffbase.txt
+3>binplace d:\openxp\inetsrv\uddi\source\filter\obj\i386\uddi.filter.dll
+1>genbasemac: module rcf not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+3>	( echo. )
+3> 
+3>
+3>Stop.
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\rcf.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:system.dll,system.data.dll,system.xml.dll,..\..\core\obj\I386\uddi.core.dll,..\..\operator\obj\I386\uddi.operator.dll     assemblyinfo.cs		 assemblyversioninfo.cs  rcf.cs 
+1>error CS0006: Metadata file '..\..\core\obj\I386\uddi.core.dll' could not be found
+1>error CS0006: Metadata file '..\..\operator\obj\I386\uddi.operator.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\tools\rcf\obj\i386\rcf.exe
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\rcf\obj\i386\rcf.exe,D:\binaries.x86chk\.\uddi\bin\rcf.exe) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\rcf.exe - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:26.594] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\monitor directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 monitor D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module monitor not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\monitor.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:..\..\core\obj\I386\uddi.core.dll,..\..\operator\obj\I386\uddi.operator.dll     assemblyinfo.cs		 assemblyversioninfo.cs  monitor.cs 
+2>	compact /c /q obj\i386\uddi.mmc.pdb
+1>error CS0006: Metadata file '..\..\core\obj\I386\uddi.core.dll' could not be found
+2>
+2> Compressing files in d:\openxp\inetsrv\uddi\source\mmc\obj\i386\
+1>error CS0006: Metadata file '..\..\operator\obj\I386\uddi.operator.dll' could not be found
+2>
+1>binplace d:\openxp\inetsrv\uddi\source\tools\monitor\obj\i386\monitor.exe
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\monitor\obj\i386\monitor.exe,D:\binaries.x86chk\.\uddi\bin\monitor.exe) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\monitor.exe - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:26.937] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\send directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 send D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module send not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+2>
+2>1 files within 1 directories were compressed.
+2>2,706,432 total bytes of data are stored in 1,462,272 bytes.
+2>The compression ratio is 1.9 to 1.
+2>	echo.
+2>
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\send.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:..\..\core\obj\I386\uddi.core.dll,..\..\api\obj\I386\uddi.api.dll     uddisend.cs  assemblyversioninfo.cs  assemblyinfo.cs 
+2>binplace d:\openxp\inetsrv\uddi\source\mmc\obj\i386\uddi.mmc.dll
+1>error CS0006: Metadata file '..\..\core\obj\I386\uddi.core.dll' could not be found
+1>error CS0006: Metadata file '..\..\api\obj\I386\uddi.api.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\tools\send\obj\i386\send.exe
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\send\obj\i386\send.exe,D:\binaries.x86chk\.\uddi\bin\send.exe) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\send.exe - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:27.375] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\resetkey directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 resetkey D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module resetkey not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+2>	( ( echo. ) ) &                                             ( echo                                                              SXS_ASSEMBLY_NAME="Microsoft.Windows.ServerAdmin.UDDIServices"                            SXS_ASSEMBLY_VERSION="1.0.0.0"                      SXS_ASSEMBLY_LANGUAGE="x-ww"                    SXS_MANIFEST="\uddi.mmc.dll"    | appendtool.exe -file D:\binaries.x86chk\build_logs\binplace.log-sxs - )
+2> 
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\resetkey.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:..\..\core\obj\I386\uddi.core.dll     resetkey.cs  assemblyversioninfo.cs  assemblyinfo.cs 
+1>error CS0006: Metadata file '..\..\core\obj\I386\uddi.core.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\tools\resetkey\obj\i386\resetkey.exe
+2>
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\resetkey\obj\i386\resetkey.exe,D:\binaries.x86chk\.\uddi\bin\resetkey.exe) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\resetkey.exe - exiting.
+1>	( echo. )
+2>Stop.
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:27.734] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\validate directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 validate D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module validate not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\validate.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:..\..\core\obj\I386\uddi.core.dll     assemblyinfo.cs  assemblyversioninfo.cs  validate.cs 
+1>error CS0006: Metadata file '..\..\core\obj\I386\uddi.core.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\tools\validate\obj\i386\validate.exe
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\validate\obj\i386\validate.exe,D:\binaries.x86chk\.\uddi\bin\validate.exe) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\validate.exe - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:28.078] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\bootstrap directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 Bootstrap D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module Bootstrap not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\Bootstrap.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:..\..\core\obj\I386\uddi.core.dll,..\..\api\obj\I386\uddi.api.dll    bootstrap.cs  assemblyversioninfo.cs  assemblyinfo.cs 
+1>error CS0006: Metadata file '..\..\core\obj\I386\uddi.core.dll' could not be found
+1>error CS0006: Metadata file '..\..\api\obj\I386\uddi.api.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\tools\bootstrap\obj\i386\Bootstrap.exe
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\bootstrap\obj\i386\Bootstrap.exe,D:\binaries.x86chk\.\uddi\bin\Bootstrap.exe) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\Bootstrap.exe - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:28.422] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\migrate directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 migrate D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module migrate not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\migrate.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe- /RES:uddi.v2.update_rc0_to_rc1.sql         /RES:uddi.v2.update_rc1_to_rc2.sql  /r:..\..\core\obj\I386\uddi.core.dll,..\..\api\obj\I386\uddi.api.dll    migrate.cs  assemblyinfo.cs 
+1>error CS0006: Metadata file '..\..\core\obj\I386\uddi.core.dll' could not be found
+1>error CS0006: Metadata file '..\..\api\obj\I386\uddi.api.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\tools\migrate\obj\i386\migrate.exe
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\migrate\obj\i386\migrate.exe,D:\binaries.x86chk\.\uddi\bin\migrate.exe) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\migrate.exe - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:28.750] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\replicationadmin directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 replicationadmin D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module replicationadmin not found in D:\OpenXP\Tools\coffbase.txt
+1>	resgen.exe .\adminframe.resx obj\i386\adminframe.resources
+1>
+1>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+1>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+1>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+1>   at System.Resources.ResourceReader.ReadResources()
+1>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+1>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+1>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+1>   at System.Environment.GetResourceString(String key)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+1>   at System.Globalization.CultureInfo..cctor()
+1>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+1>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+1>   at System.Threading.Thread.get_CurrentUICulture()1>	resgen.exe .\changelogcontrol.resx obj\i386\changelogcontrol.resources
+1>
+1>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+1>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+1>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+1>   at System.Resources.ResourceReader.ReadResources()
+1>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+1>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+1>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+1>   at System.Environment.GetResourceString(String key)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+1>   at System.Globalization.CultureInfo..cctor()
+1>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+1>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+1>   at System.Threading.Thread.get_CurrentUICulture()1>	resgen.exe .\correctionadmin.resx obj\i386\correctionadmin.resources
+1>
+1>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+1>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+1>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+1>   at System.Resources.ResourceReader.ReadResources()
+1>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+1>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+1>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+1>   at System.Environment.GetResourceString(String key)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+1>   at System.Globalization.CultureInfo..cctor()
+1>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+1>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+1>   at System.Threading.Thread.get_CurrentUICulture()1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\replicationadmin.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe- /resource:obj\i386\adminframe.resources  /resource:obj\i386\changelogcontrol.resources  /resource:obj\i386\correctionadmin.resources  /r:system.dll,system.data.dll,system.drawing.dll,system.windows.forms.dll,system.xml.dll,..\..\api\obj\I386\uddi.api.dll,..\..\core\obj\I386\uddi.core.dll,..\..\operator\obj\I386\uddi.operator.dll    assemblyinfo.cs  assemblyversioninfo.cs  adminframe.cs  changelogcontrol.cs  correctionadmin.cs 
+1>error CS0006: Metadata file '..\..\api\obj\I386\uddi.api.dll' could not be found
+1>error CS0006: Metadata file '..\..\core\obj\I386\uddi.core.dll' could not be found
+1>error CS0006: Metadata file '..\..\operator\obj\I386\uddi.operator.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\tools\replicationadmin\obj\i386\replicationadmin.exe
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\replicationadmin\obj\i386\replicationadmin.exe,D:\binaries.x86chk\.\uddi\bin\replicationadmin.exe) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\replicationadmin.exe - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:32.375] ********************
+Linking d:\openxp\inetsrv\uddi\source\tools\recalcstats directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 recalcstats D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module recalcstats not found in D:\OpenXP\Tools\coffbase.txt
+1>	..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:exe  /out:obj\i386\recalcstats.exe  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe-   /r:..\..\core\obj\I386\uddi.core.dll     recalcstats.cs  assemblyversioninfo.cs  assemblyinfo.cs 
+1>error CS0006: Metadata file '..\..\core\obj\I386\uddi.core.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\tools\recalcstats\obj\i386\recalcstats.exe
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\tools\recalcstats\obj\i386\recalcstats.exe,D:\binaries.x86chk\.\uddi\bin\recalcstats.exe) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\recalcstats.exe - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:32.734] ********************
+Linking d:\openxp\inetsrv\uddi\source\setup\web\ca.unmanaged directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Elapsed time [0:00:32.734] ********************
+Linking d:\openxp\inetsrv\uddi\source\setup\web\ca directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 webca D:\OpenXP\Tools\coffbase.txt
+4>	link -out:obj\i386\webcaum.dll -machine:ix86 @C:\Users\ntvbl06\AppData\Local\Temp\nm2493.tmp
+1>genbasemac: module webca not found in D:\OpenXP\Tools\coffbase.txt
+1>	resgen.exe .\webca.resx obj\i386\webca.resources
+4>Microsoft (R) Incremental Linker Version 7.10.2179
+4>Copyright (C) Microsoft Corporation.  All rights reserved.
+4>
+4>/include:__afxForceSTDAFX 
+4>-MERGE:_PAGE=PAGE 
+4>-MERGE:_TEXT=.text 
+4>-SECTION:INIT,d 
+4>-OPT:REF 
+4>-OPT:ICF 
+4>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+4>-INCREMENTAL:NO 
+4>-FULLBUILD 
+4>/release 
+4>-NODEFAULTLIB 
+4>/WX 
+4>-debug:FULL 
+4>-debugtype:cv 
+4>-version:5.2 
+4>-osversion:5.2 
+4>-debug:full 
+4>-debugtype:cv,fixup 
+4>/opt:nowin98 
+4>-PDBPATH:NONE 
+4>-merge:.rdata=.text 
+4>-STACK:0x40000,0x1000 
+4>-dll 
+4>-base:@D:\OpenXP\Tools\coffbase.txt,webcaum 
+4>-subsystem:windows,4.00 
+4>-entry:_DllMainCRTStartup@12 
+4>obj\i386\webcaum.exp 
+4>obj\i386\webcaum.res 
+4>obj\i386\apppool.obj 
+4>obj\i386\common.obj 
+4>obj\i386\strlist.obj 
+4>obj\i386\iis.metabase.obj 
+4>obj\i386\setdacl.obj 
+4>obj\i386\webcaum.obj 
+4>D:\OpenXP\public\sdk\lib\i386\BufferOverflowU.lib 
+4>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+4>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+4>D:\OpenXP\public\sdk\lib\i386\mfc42u.lib 
+4>D:\OpenXP\public\sdk\lib\i386\msvcrt.lib 
+4>D:\OpenXP\public\sdk\lib\i386\msvcprt.lib 
+4>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+4>D:\OpenXP\public\sdk\lib\i386\ntdll.lib 
+4>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+4>D:\OpenXP\public\sdk\lib\i386\adsiid.lib 
+4>D:\OpenXP\public\sdk\lib\i386\shell32.lib 
+4>D:\OpenXP\public\sdk\lib\i386\setupapi.lib 
+4>D:\OpenXP\public\sdk\lib\i386\oleaut32.lib 
+4>D:\OpenXP\public\sdk\lib\i386\ole32.lib 
+4>D:\OpenXP\public\sdk\lib\i386\comctl32.lib 
+4>D:\OpenXP\public\sdk\lib\i386\rpcrt4.lib 
+4>D:\OpenXP\public\sdk\lib\i386\user32.lib 
+4>D:\OpenXP\public\sdk\lib\i386\gdi32.lib 
+4>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+4>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+4>D:\OpenXP\public\sdk\lib\i386\netapi32.lib 
+4>D:\OpenXP\public\sdk\lib\i386\shlwapi.lib 
+4>D:\OpenXP\public\sdk\lib\i386\comctl32.lib 
+4>D:\OpenXP\public\sdk\lib\i386\version.lib 
+4>D:\OpenXP\public\sdk\lib\i386\Secur32.lib 
+4>D:\OpenXP\public\sdk\lib\i386\msi.lib 
+4>D:\OpenXP\public\sdk\lib\i386\wbemuuid.lib 
+4>	compact /c /q obj\i386\webcaum.pdb
+4>
+4> Compressing files in d:\openxp\inetsrv\uddi\source\setup\web\ca.unmanaged\obj\i386\
+4>
+1>
+1>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+1>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+1>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+1>   at System.Resources.ResourceReader.ReadResources()
+1>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+1>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+1>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+1>   at System.Environment.GetResourceString(String key)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+1>   at System.Globalization.CultureInfo..cctor()
+1>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+1>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+1>   at System.Threading.Thread.get_CurrentUICulture()1>	..\..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+4>
+4>1 files within 1 directories were compressed.
+4>1,698,816 total bytes of data are stored in 958,464 bytes.
+4>The compression ratio is 1.8 to 1.
+4>	echo.
+4>
+4>binplace d:\openxp\inetsrv\uddi\source\setup\web\ca.unmanaged\obj\i386\webcaum.dll
+1>	csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:library  /out:obj\i386\webca.dll  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe- /resource:obj\i386\webca.resources  /r:system.dll,system.data.dll,system.xml.dll,system.management.dll,system.configuration.install.dll,system.directoryservices.dll,system.windows.forms.dll,..\..\..\api\obj\I386\uddi.api.dll,..\..\..\api\PassportLib.dll,..\..\..\core\obj\I386\uddi.core.dll     assemblyinfo.cs	 assemblyversioninfo.cs  webca.cs 
+1>error CS0006: Metadata file '..\..\..\api\obj\I386\uddi.api.dll' could not be found
+1>error CS0006: Metadata file '..\..\..\core\obj\I386\uddi.core.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\setup\web\ca\obj\i386\webca.dll
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\setup\web\ca\obj\i386\webca.dll,D:\binaries.x86chk\.\uddi\bin\webca.dll) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\webca.dll - exiting.
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:34.625] ********************
+Linking d:\openxp\inetsrv\uddi\source\setup\db\ca directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+1>BUILD: D:\OpenXP\tools\genbasemac.pl obj\i386 dbca D:\OpenXP\Tools\coffbase.txt
+1>genbasemac: module dbca not found in D:\OpenXP\Tools\coffbase.txt
+4>	( echo. )
+1>	resgen.exe .\dbca.resx obj\i386\dbca.resources
+4> 
+4>
+4>Stop.
+1>
+1>Unhandled Exception: System.TypeInitializationException: [Resource lookup failed - infinite recursion detected.  Resource name: TypeInitialization_Type] ---> System.NullReferenceException: [Resource lookup failed - infinite recursion detected.  Resource name: Arg_NullReferenceException]
+1>   at System.Resources.ResourceReader.StripVersionField(String typeName)
+1>   at System.Resources.ResourceReader.InitSafeToDeserializeArray()
+1>   at System.Resources.ResourceReader.ReadResources()
+1>   at System.Resources.ResourceReader..ctor(Stream stream, Hashtable table)
+1>   at System.Resources.RuntimeResourceSet..ctor(Stream stream)
+1>   at System.Resources.ResourceManager.CreateResourceSet(Stream store)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+1>   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+1>   at System.Environment.GetResourceString(String key)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture, Boolean useUserOverride)
+1>   at System.Globalization.CultureInfo..ctor(Int32 culture)
+1>   at System.Globalization.CultureInfo..cctor()
+1>   [Resource lookup failed - infinite recursion detected.  Resource name: Exception_EndOfInnerExceptionStack]
+1>   at System.Globalization.CultureInfo.get_UserDefaultUICulture()
+1>   at System.Threading.Thread.get_CurrentUICulture()1>	..\..\..\version\obj\i386\version.exe -outfile .\assemblyversioninfo.cs
+1>	csc.exe -nologo  /r:Accessibility.dll  /r:Microsoft.Vsa.dll  /r:System.Configuration.Install.dll  /r:System.Data.dll  /r:System.Design.dll  /r:System.DirectoryServices.dll  /r:System.dll  /r:System.Drawing.Design.dll  /r:System.Drawing.dll  /r:System.EnterpriseServices.dll  /r:System.Management.dll  /r:System.Messaging.dll  /r:System.Runtime.Remoting.dll  /r:System.Runtime.Serialization.Formatters.Soap.dll  /r:System.Security.dll  /r:System.ServiceProcess.dll  /r:System.Web.dll  /r:System.Web.RegularExpressions.dll  /r:System.Web.Services.dll  /r:System.Windows.Forms.Dll  /r:System.XML.dll  /target:library  /out:obj\i386\dbca.dll  /baseaddress:0x400000  /debug:full /define:DEBUG /warnaserror+ /unsafe- /resource:obj\i386\dbca.resources @cscresponse.txt  /r:interop.sqldmo.dll,..\..\..\api\obj\I386\uddi.api.dll,..\..\..\api\PassportLib.dll,..\..\..\core\obj\I386\uddi.core.dll     assemblyinfo.cs  assemblyversioninfo.cs  dbca.cs 
+1>error CS0006: Metadata file '..\..\..\api\obj\I386\uddi.api.dll' could not be found
+1>error CS0006: Metadata file '..\..\..\core\obj\I386\uddi.core.dll' could not be found
+1>binplace d:\openxp\inetsrv\uddi\source\setup\db\ca\obj\i386\dbca.dll
+1>BINPLACE : warning BNP0000: CopyFile(d:\openxp\inetsrv\uddi\source\setup\db\ca\obj\i386\dbca.dll,D:\binaries.x86chk\.\uddi\bin\dbca.dll) failed 2
+1>BINPLACE : fatal error BNP0000: Unable to place file obj\i386\dbca.dll - exiting.
+1>	echo.
+1>
+1>	( echo. )
+1> 
+1>
+1>Stop.
+Elapsed time [0:00:35.797] ********************
+Linking d:\openxp\inetsrv\uddi\source\setup\db\ca.unmanaged directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Elapsed time [0:00:35.797] ********************
+Linking d:\openxp\inetsrv\uddi\source\setup\ocm directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Elapsed time [0:00:35.812] ********************
+Linking d:\openxp\inetsrv\uddi\source\setup\msitoddf directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Elapsed time [0:00:35.812] ********************
+Linking d:\openxp\inetsrv\uddi\source\setup\uddimsifiler directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+Elapsed time [0:00:35.828] ********************
+Linking d:\openxp\inetsrv\uddi\source\xp directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1 386=1'
+Elapsed time [0:00:35.828] ********************
+5>	link -out:obj\i386\dbcaum.dll -machine:ix86 @C:\Users\ntvbl06\AppData\Local\Temp\nm30A9.tmp
+7>	link -out:obj\i386\msitoddf.exe -machine:ix86 @C:\Users\ntvbl06\AppData\Local\Temp\nm30B8.tmp
+8>	link -out:obj\i386\uddimsifiler.exe -machine:ix86 @C:\Users\ntvbl06\AppData\Local\Temp\nm30B9.tmp
+6>	link -out:obj\i386\uddiocm.dll -machine:ix86 @C:\Users\ntvbl06\AppData\Local\Temp\nm30BA.tmp
+1>	link -out:obj\i386\uddi.xp.dll -machine:ix86 @C:\Users\ntvbl06\AppData\Local\Temp\nm30BB.tmp
+5>Microsoft (R) Incremental Linker Version 7.10.2179
+5>Copyright (C) Microsoft Corporation.  All rights reserved.
+5>
+5>/include:__afxForceSTDAFX 
+5>-MERGE:_PAGE=PAGE 
+5>-MERGE:_TEXT=.text 
+5>-SECTION:INIT,d 
+5>-OPT:REF 
+5>-OPT:ICF 
+5>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+5>-INCREMENTAL:NO 
+5>-FULLBUILD 
+5>/release 
+5>-NODEFAULTLIB 
+5>/WX 
+5>-debug:FULL 
+5>-debugtype:cv 
+5>-version:5.2 
+5>-osversion:5.2 
+5>-debug:full 
+5>-debugtype:cv,fixup 
+5>/opt:nowin98 
+5>-PDBPATH:NONE 
+5>-merge:.rdata=.text 
+5>-STACK:0x40000,0x1000 
+5>-dll 
+5>-base:@D:\OpenXP\Tools\coffbase.txt,dbcaum 
+5>-subsystem:windows,4.00 
+5>-entry:_DllMainCRTStartup@12 
+5>obj\i386\dbcaum.exp 
+5>obj\i386\dbcaum.res 
+5>obj\i386\apppool.obj 
+5>obj\i386\common.obj 
+5>obj\i386\dbcaum.obj 
+5>D:\OpenXP\public\sdk\lib\i386\BufferOverflowU.lib 
+5>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+5>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+5>D:\OpenXP\public\sdk\lib\i386\mfc42u.lib 
+5>D:\OpenXP\public\sdk\lib\i386\msvcrt.lib 
+5>D:\OpenXP\public\sdk\lib\i386\msvcprt.lib 
+5>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+5>D:\OpenXP\public\sdk\lib\i386\ntdll.lib 
+5>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+5>D:\OpenXP\public\sdk\lib\i386\adsiid.lib 
+5>D:\OpenXP\public\sdk\lib\i386\shell32.lib 
+5>D:\OpenXP\public\sdk\lib\i386\setupapi.lib 
+5>D:\OpenXP\public\sdk\lib\i386\oleaut32.lib 
+5>D:\OpenXP\public\sdk\lib\i386\ole32.lib 
+5>D:\OpenXP\public\sdk\lib\i386\comctl32.lib 
+5>D:\OpenXP\public\sdk\lib\i386\rpcrt4.lib 
+5>D:\OpenXP\public\sdk\lib\i386\user32.lib 
+5>D:\OpenXP\public\sdk\lib\i386\gdi32.lib 
+5>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+5>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+5>D:\OpenXP\public\sdk\lib\i386\netapi32.lib 
+5>D:\OpenXP\public\sdk\lib\i386\shlwapi.lib 
+5>D:\OpenXP\public\sdk\lib\i386\comctl32.lib 
+5>D:\OpenXP\public\sdk\lib\i386\version.lib 
+5>D:\OpenXP\public\sdk\lib\i386\Secur32.lib 
+5>D:\OpenXP\public\sdk\lib\i386\msi.lib 
+5>D:\OpenXP\public\sdk\lib\i386\wbemuuid.lib 
+6>Microsoft (R) Incremental Linker Version 7.10.2179
+6>Copyright (C) Microsoft Corporation.  All rights reserved.
+6>
+6>/include:__afxForceSTDAFX 
+6>-MERGE:_PAGE=PAGE 
+6>-MERGE:_TEXT=.text 
+6>-SECTION:INIT,d 
+6>-OPT:REF 
+6>-OPT:ICF 
+6>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+6>-INCREMENTAL:NO 
+6>-FULLBUILD 
+6>/release 
+6>-NODEFAULTLIB 
+6>/WX 
+6>-debug:FULL 
+6>-debugtype:cv 
+7>Microsoft (R) Incremental Linker Version 7.10.2179
+6>-version:5.2 
+7>Copyright (C) Microsoft Corporation.  All rights reserved.
+6>-osversion:5.2 
+6>-debug:full 
+7>
+7>/include:__afxForceSTDAFX 
+6>-debugtype:cv,fixup 
+6>/opt:nowin98 
+6>-PDBPATH:NONE 
+6>-merge:.rdata=.text 
+7>-MERGE:_PAGE=PAGE 
+7>-MERGE:_TEXT=.text 
+7>-SECTION:INIT,d 
+7>-OPT:REF 
+7>-OPT:ICF 
+7>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+6>-STACK:0x40000,0x1000 
+6>-dll 
+7>-INCREMENTAL:NO 
+7>-FULLBUILD 
+8>Microsoft (R) Incremental Linker Version 7.10.2179
+7>/release 
+6>-base:@D:\OpenXP\Tools\coffbase.txt,uddiocm 
+6>-subsystem:windows,4.00 
+6>-entry:_DllMainCRTStartup@12 
+6>obj\i386\uddiocm.exp 
+6>obj\i386\uddiocm.res 
+6>obj\i386\appcompat.obj 
+7>-NODEFAULTLIB 
+7>/WX 
+8>Copyright (C) Microsoft Corporation.  All rights reserved.
+7>-debug:FULL 
+6>obj\i386\strlist.obj 
+6>obj\i386\uddiinst.obj 
+8>
+8>/include:__afxForceSTDAFX 
+6>obj\i386\uddiocm.obj 
+8>-MERGE:_PAGE=PAGE 
+8>-MERGE:_TEXT=.text 
+7>-debugtype:cv 
+7>-version:5.2 
+6>obj\i386\wizpage.obj 
+6>obj\i386\objectpicker.obj 
+8>-SECTION:INIT,d 
+8>-OPT:REF 
+7>-osversion:5.2 
+7>-debug:full 
+6>obj\i386\ocmcallback.obj 
+6>obj\i386\common.obj 
+6>D:\OpenXP\public\sdk\lib\i386\BufferOverflowU.lib 
+6>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+6>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+6>D:\OpenXP\public\sdk\lib\i386\mfc42u.lib 
+7>-debugtype:cv,fixup 
+6>D:\OpenXP\public\sdk\lib\i386\msvcrt.lib 
+8>-OPT:ICF 
+6>D:\OpenXP\public\sdk\lib\i386\msvcprt.lib 
+7>/opt:nowin98 
+7>-PDBPATH:NONE 
+7>-merge:.rdata=.text 
+7>-STACK:0x40000,0x2000 
+7>/tsaware 
+7>-subsystem:console,4.00 
+7>-base:@D:\OpenXP\Tools\coffbase.txt,usermode 
+7>-entry:wmainCRTStartup 
+7>obj\i386\stdafx.obj 
+7>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+7>D:\OpenXP\public\sdk\lib\i386\mfc42u.lib 
+7>D:\OpenXP\public\sdk\lib\i386\msvcrt.lib 
+7>D:\OpenXP\public\sdk\lib\i386\msvcprt.lib 
+7>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+7>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+7>obj\i386\msitoddf.res 
+7>obj\i386\msitoddf.obj 
+8>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+8>-INCREMENTAL:NO 
+8>-FULLBUILD 
+7>D:\OpenXP\public\sdk\lib\i386\BufferOverflowU.lib 
+6>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+8>/release 
+6>D:\OpenXP\public\sdk\lib\i386\ntdll.lib 
+6>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+7>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+7>D:\OpenXP\public\sdk\lib\i386\mfc42u.lib 
+7>D:\OpenXP\public\sdk\lib\i386\msvcrt.lib 
+7>D:\OpenXP\public\sdk\lib\i386\msvcprt.lib 
+7>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+7>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+7>D:\OpenXP\public\sdk\lib\i386\adsiid.lib 
+7>D:\OpenXP\public\sdk\lib\i386\shell32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\setupapi.lib 
+7>D:\OpenXP\public\sdk\lib\i386\oleaut32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\ole32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\comctl32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\rpcrt4.lib 
+7>D:\OpenXP\public\sdk\lib\i386\user32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\gdi32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\netapi32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\shlwapi.lib 
+7>D:\OpenXP\public\sdk\lib\i386\comctl32.lib 
+7>D:\OpenXP\public\sdk\lib\i386\version.lib 
+7>D:\OpenXP\public\sdk\lib\i386\Secur32.lib 
+8>-NODEFAULTLIB 
+8>/WX 
+8>-debug:FULL 
+6>D:\OpenXP\public\sdk\lib\i386\adsiid.lib 
+7>D:\OpenXP\public\sdk\lib\i386\msi.lib 
+6>D:\OpenXP\public\sdk\lib\i386\shell32.lib 
+6>D:\OpenXP\public\sdk\lib\i386\setupapi.lib 
+6>D:\OpenXP\public\sdk\lib\i386\oleaut32.lib 
+6>D:\OpenXP\public\sdk\lib\i386\ole32.lib 
+6>D:\OpenXP\public\sdk\lib\i386\comctl32.lib 
+6>D:\OpenXP\public\sdk\lib\i386\rpcrt4.lib 
+6>D:\OpenXP\public\sdk\lib\i386\user32.lib 
+6>D:\OpenXP\public\sdk\lib\i386\gdi32.lib 
+6>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+6>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+6>D:\OpenXP\public\sdk\lib\i386\netapi32.lib 
+6>D:\OpenXP\public\sdk\lib\i386\shlwapi.lib 
+6>D:\OpenXP\public\sdk\lib\i386\comctl32.lib 
+6>D:\OpenXP\public\sdk\lib\i386\version.lib 
+6>D:\OpenXP\public\sdk\lib\i386\Secur32.lib 
+6>D:\OpenXP\public\sdk\lib\i386\msi.lib 
+6>D:\OpenXP\public\sdk\lib\i386\version.lib 
+6>D:\OpenXP\public\sdk\lib\i386\clusapi.lib 
+6>D:\OpenXP\public\sdk\lib\i386\resutils.lib 
+8>-debugtype:cv 
+8>-version:5.2 
+8>-osversion:5.2 
+8>-debug:full 
+8>-debugtype:cv,fixup 
+6>D:\OpenXP\public\sdk\lib\i386\wbemuuid.lib 
+6>D:\OpenXP\public\sdk\lib\i386\uuid.lib 
+8>/opt:nowin98 
+8>-PDBPATH:NONE 
+8>-merge:.rdata=.text 
+8>-STACK:0x40000,0x2000 
+8>/tsaware 
+8>-subsystem:console,4.00 
+8>-base:@D:\OpenXP\Tools\coffbase.txt,usermode 
+8>-entry:wmainCRTStartup 
+8>obj\i386\stdafx.obj 
+8>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+8>D:\OpenXP\public\sdk\lib\i386\mfc42u.lib 
+8>D:\OpenXP\public\sdk\lib\i386\msvcrt.lib 
+8>D:\OpenXP\public\sdk\lib\i386\msvcprt.lib 
+8>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+8>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+8>obj\i386\uddimsifiler.res 
+8>obj\i386\uddimsifiler.obj 
+8>D:\OpenXP\public\sdk\lib\i386\BufferOverflowU.lib 
+8>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+8>D:\OpenXP\public\sdk\lib\i386\mfc42u.lib 
+8>D:\OpenXP\public\sdk\lib\i386\msvcrt.lib 
+8>D:\OpenXP\public\sdk\lib\i386\msvcprt.lib 
+8>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+8>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\atl.lib 
+8>D:\OpenXP\public\sdk\lib\i386\adsiid.lib 
+8>D:\OpenXP\public\sdk\lib\i386\shell32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\setupapi.lib 
+8>D:\OpenXP\public\sdk\lib\i386\oleaut32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\ole32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\comctl32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\rpcrt4.lib 
+8>D:\OpenXP\public\sdk\lib\i386\user32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\gdi32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\netapi32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\shlwapi.lib 
+8>D:\OpenXP\public\sdk\lib\i386\comctl32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\version.lib 
+8>D:\OpenXP\public\sdk\lib\i386\Secur32.lib 
+8>D:\OpenXP\public\sdk\lib\i386\msi.lib 
+1>Microsoft (R) Incremental Linker Version 7.10.2179
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>
+1>/include:__afxForceSTDAFX 
+1>-MERGE:_PAGE=PAGE 
+1>-MERGE:_TEXT=.text 
+1>-SECTION:INIT,d 
+1>-OPT:REF 
+1>-OPT:ICF 
+1>-IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4221,4198 
+1>-INCREMENTAL:NO 
+1>-FULLBUILD 
+1>/release 
+1>-NODEFAULTLIB 
+1>/WX 
+1>-debug:FULL 
+1>-debugtype:cv 
+1>-version:5.2 
+1>-osversion:5.2 
+1>-debug:full 
+1>-debugtype:cv,fixup 
+1>/opt:nowin98 
+1>-PDBPATH:NONE 
+1>-merge:.rdata=.text 
+1>-STACK:0x40000,0x1000 
+1>-dll 
+1>-base:@D:\OpenXP\Tools\coffbase.txt,uddi.xp 
+1>-subsystem:windows,4.00 
+1>-entry:_DllMainCRTStartup@12 
+1>obj\i386\uddi.xp.exp 
+1>obj\i386\uddi.xp.obj 
+1>obj\i386\xp_recalculate_statistics.obj 
+1>obj\i386\xp_reset_key.obj 
+1>D:\OpenXP\public\sdk\lib\i386\BufferOverflowU.lib 
+1>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\mfcs42u.lib 
+1>D:\OpenXP\public\sdk\lib\i386\mfc42u.lib 
+1>D:\OpenXP\public\sdk\lib\i386\msvcrt.lib 
+1>D:\OpenXP\public\sdk\lib\i386\msvcprt.lib 
+1>D:\OpenXP\public\sdk\lib\i386\ntdll.lib 
+1>opends60.lib 
+1>D:\OpenXP\public\sdk\lib\i386\advapi32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\comsvcs.lib 
+1>D:\OpenXP\public\sdk\lib\i386\kernel32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\user32.lib 
+1>D:\OpenXP\public\sdk\lib\i386\version.lib 
+1>D:\OpenXP\public\sdk\lib\i386\winspool.lib 
+1>D:\OpenXP\public\sdk\lib\i386\rpcrt4.lib 
+5>	compact /c /q obj\i386\dbcaum.pdb
+1>	compact /c /q obj\i386\uddi.xp.pdb
+5>
+5> Compressing files in d:\openxp\inetsrv\uddi\source\setup\db\ca.unmanaged\obj\i386\
+5>
+8>	compact /c /q obj\i386\uddimsifiler.pdb
+1>
+1> Compressing files in d:\openxp\inetsrv\uddi\source\xp\obj\i386\
+1>
+7>	compact /c /q obj\i386\msitoddf.pdb
+8>
+8> Compressing files in d:\openxp\inetsrv\uddi\source\setup\uddimsifiler\obj\i386\
+8>
+7>
+7> Compressing files in d:\openxp\inetsrv\uddi\source\setup\msitoddf\obj\i386\
+7>
+6>	compact /c /q obj\i386\uddiocm.pdb
+6>
+6> Compressing files in d:\openxp\inetsrv\uddi\source\setup\ocm\obj\i386\
+6>
+1>
+1>1 files within 1 directories were compressed.
+1>1,518,592 total bytes of data are stored in 888,832 bytes.
+1>The compression ratio is 1.7 to 1.
+1>	echo.
+1>
+1>binplace d:\openxp\inetsrv\uddi\source\xp\obj\i386\uddi.xp.dll
+5>
+5>1 files within 1 directories were compressed.
+5>1,543,168 total bytes of data are stored in 892,928 bytes.
+5>The compression ratio is 1.7 to 1.
+5>	echo.
+5>
+5>binplace d:\openxp\inetsrv\uddi\source\setup\db\ca.unmanaged\obj\i386\dbcaum.dll
+1>	( echo. )
+1> 
+1>
+1>Stop.
+8>
+8>1 files within 1 directories were compressed.
+8>1,608,704 total bytes of data are stored in 933,888 bytes.
+8>The compression ratio is 1.7 to 1.
+8>	echo.
+7>
+7>1 files within 1 directories were compressed.
+7>1,616,896 total bytes of data are stored in 946,176 bytes.
+7>The compression ratio is 1.7 to 1.
+7>	echo.
+8>
+7>
+8>binplace d:\openxp\inetsrv\uddi\source\setup\uddimsifiler\obj\i386\uddimsifiler.exe
+6>
+6>1 files within 1 directories were compressed.
+6>2,165,760 total bytes of data are stored in 1,183,744 bytes.
+6>The compression ratio is 1.8 to 1.
+6>	echo.
+7>binplace d:\openxp\inetsrv\uddi\source\setup\msitoddf\obj\i386\msitoddf.exe
+6>
+5>	( echo. )
+5> 
+6>binplace d:\openxp\inetsrv\uddi\source\setup\ocm\obj\i386\uddiocm.dll
+5>
+5>Stop.
+7>	( echo. )
+8>	( echo. )
+8> 
+7> 
+7>
+8>
+7>Stop.
+8>Stop.
+6>	( echo. )
+6> 
+6>
+6>Stop.
+Executing post build scripts  ********************
+Checkout Public Changes
+'D:\OpenXP\tools\edit_public.cmd '
+1>Source Depot client error:
+1>	See http://sourcedepot for documentation on Source Depot.
+1>	No server or port specified; check $SDPORT.
+1>        1 file(s) moved.
+1>BUILDMSG: Error attempting to publish files
+1>BUILDMSG: Source Depot client error:
+1>Source Depot client error:
+1>	See http://sourcedepot for documentation on Source Depot.
+1>	No server or port specified; check $SDPORT.
+1>exit: 1

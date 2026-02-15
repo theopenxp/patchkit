@@ -12,5 +12,5 @@ jobs:
       - name: Mirror
         run: |
           git clone --mirror https://codeberg.org/openxp/patchkit.git
-          cd YOURREPO.git
+          cd patckit.git
           git push --mirror https://github.com/openxp/patchkit.git

@@ -1,0 +1,16 @@
+name: Mirror from Codeberg
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"  # every 10 minutes
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mirror
+        run: |
+          git clone --mirror https://codeberg.org/openxp/patchkit.git
+          cd YOURREPO.git
+          git push --mirror https://github.com/openxp/patchkit.git
